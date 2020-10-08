@@ -98,6 +98,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Recorder.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_WheelCollider.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Settings.cs" />
+    <Compile Include="Assets\Scripts\Machinegun.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_SceneManager.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_ShadowRotConst.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_PlayerPrefsX.cs" />
@@ -117,7 +118,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Vehicles.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardInputs.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_LevelLoader.cs" />
-    <Compile Include="Assets\Scripts\Machinegun.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\RealisticCarControllerV3\LICENSE - Read Me!.txt" />
@@ -659,6 +660,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -674,6 +678,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
@@ -682,12 +689,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

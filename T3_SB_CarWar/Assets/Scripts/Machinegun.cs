@@ -14,7 +14,12 @@ public class Machinegun : MonoBehaviour
     public Transform barrelL;
     public Transform barrelR;
     public float bulletSpeed;
-    public Camera camera;
+    //public Camera camera;
+    private float nextTimeToFire;
+    private float fireRate = 5f;
+    public AudioClip shotSound;
+    public AudioSource audioSource;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -23,7 +28,12 @@ public class Machinegun : MonoBehaviour
     {        
         RotateGun();
         RotateBarrel();
-        Shoot();
+
+        if (Input.GetButton("Fire1") && Time.time > nextTimeToFire)
+        {
+            nextTimeToFire = Time.time + 1f / fireRate;
+            Shoot();
+        }
     }
 
     void RotateGun()
@@ -41,28 +51,28 @@ public class Machinegun : MonoBehaviour
     }
 
     void Shoot()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            GameObject bulletInstanceR;
-            GameObject bulletInstanceL;
+    {        
+        GameObject bulletInstanceR;
+        GameObject bulletInstanceL;
 
-            bulletInstanceR = Instantiate(bullet, barrelR.position, Quaternion.identity) as GameObject;
-            bulletInstanceL = Instantiate(bullet, barrelL.position, Quaternion.identity) as GameObject;
+        bulletInstanceR = Instantiate(bullet, barrelR.position, Quaternion.identity) as GameObject;
+        bulletInstanceL = Instantiate(bullet, barrelL.position, Quaternion.identity) as GameObject;
 
-            Rigidbody bulletRbR;
-            Rigidbody bulletRbL;
+        Rigidbody bulletRbR;
+        Rigidbody bulletRbL;
 
-            bulletRbR = bulletInstanceR.GetComponent<Rigidbody>();
-            bulletRbL = bulletInstanceL.GetComponent<Rigidbody>();
+        bulletRbR = bulletInstanceR.GetComponent<Rigidbody>();
+        bulletRbL = bulletInstanceL.GetComponent<Rigidbody>();
 
-            bulletRbR.AddForce(barrelR.forward * bulletSpeed);
-            bulletRbL.AddForce(barrelL.forward * bulletSpeed);
+        bulletRbR.AddForce(barrelR.forward * bulletSpeed);
+        bulletRbL.AddForce(barrelL.forward * bulletSpeed);
 
-            Destroy(bulletInstanceR, 10f);
-            Destroy(bulletInstanceL, 10f);
-        }
+        Destroy(bulletInstanceR, 10f);
+        Destroy(bulletInstanceL, 10f);
+
+        audioSource.PlayOneShot(shotSound);
     }
+
 
 
 }
