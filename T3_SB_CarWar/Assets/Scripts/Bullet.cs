@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public GameObject explosionSound;
-    public GameObject explosionVFX;
+    //public GameObject explosionSound;
+    public GameObject hitEffect;
     private bool hit = false;
+    private Rigidbody rb;
+    public float explosionForce;
+    public float explosionRadius;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,10 +27,20 @@ public class Bullet : MonoBehaviour
     {
         if (!hit)
         {
-            Instantiate(explosionSound, transform.position, transform.rotation);
-            Instantiate(explosionVFX, transform.position, transform.rotation);
-            Destroy(explosionSound, 4f);
-            Destroy(explosionVFX, 4f);
+            try
+            {
+                rb = collision.other.GetComponentInChildren<Rigidbody>();
+                rb.AddExplosionForce(explosionForce, transform.position, explosionRadius);
+            }
+            catch
+            {
+                Debug.Log("No rb");
+            }
+           
+            //Instantiate(explosionSound, transform.position, transform.rotation);
+            GameObject go = Instantiate(hitEffect, transform.position, transform.rotation);
+            //Destroy(explosionSound, 4f);
+            Destroy(go, 1f);
             hit = true;
         }
     }

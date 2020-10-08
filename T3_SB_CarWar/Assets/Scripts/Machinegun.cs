@@ -14,11 +14,14 @@ public class Machinegun : MonoBehaviour
     public Transform barrelL;
     public Transform barrelR;
     public float bulletSpeed;
-    //public Camera camera;
     private float nextTimeToFire;
     private float fireRate = 5f;
     public AudioClip shotSound;
     public AudioSource audioSource;
+    public ParticleSystem shootVFX;
+
+    private int currentAmmo = 30;
+    private float timer;
 
     private void Start()
     {
@@ -32,8 +35,13 @@ public class Machinegun : MonoBehaviour
         if (Input.GetButton("Fire1") && Time.time > nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
-            Shoot();
+            if (currentAmmo > 0)
+            {
+                Shoot();
+            }                        
         }
+
+        UpdateAmmo();
     }
 
     void RotateGun()
@@ -70,9 +78,27 @@ public class Machinegun : MonoBehaviour
         Destroy(bulletInstanceR, 10f);
         Destroy(bulletInstanceL, 10f);
 
+        currentAmmo--;
+
+
+
         audioSource.PlayOneShot(shotSound);
+        shootVFX.Play(shootVFX);
     }
 
+    void UpdateAmmo()
+    {        
+        timer += Time.deltaTime;
+        if (timer >= 2.5f)
+        {
+            currentAmmo++;
+            timer = 0;
+        }
 
+        if (currentAmmo < 0)
+        {
+            currentAmmo = 0;
+        }
+    }
 
 }
