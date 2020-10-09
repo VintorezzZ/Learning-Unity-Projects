@@ -1052,15 +1052,15 @@ MonoBehaviour:
   targetChase: {fileID: 0}
   targetTag: Player
   _AIType: 0
-  wideRayLength: 140
-  tightRayLength: 140
-  sideRayLength: 140
+  wideRayLength: 30
+  tightRayLength: 30
+  sideRayLength: 40
   obstacleLayers:
     serializedVersion: 2
     m_Bits: 4294967295
   limitSpeed: 0
   maximumSpeed: 100
-  smoothedSteer: 1
+  smoothedSteer: 0
   lap: 0
   totalWaypointPassed: 0
   nextWaypointPassRadius: 40

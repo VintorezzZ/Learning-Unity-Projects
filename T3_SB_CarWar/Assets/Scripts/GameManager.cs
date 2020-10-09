@@ -23,7 +23,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        if (SceneManager.GetActiveScene().name == "Start")        
+            Cursor.lockState = CursorLockMode.None;        
+        else
+            Cursor.lockState = CursorLockMode.Locked;
+        //deathUI = GameObject.Find("Deathpanel");
     }
 
     // Update is called once per frame
@@ -40,7 +44,16 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        SceneManager.LoadScene("Main");
+    }
 
+    public void Menu_Button()
+    {
+        SceneManager.LoadScene("Start");
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 
     public void SetDeathUI()

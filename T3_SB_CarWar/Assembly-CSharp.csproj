@@ -71,6 +71,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_MobileUIDrag.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AIWaypointsContainer.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CreateAudioSource.cs" />
+    <Compile Include="Assets\Unlock_Assets\Shared\Scripts\CarComponents.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_XRToggle.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_GroundMaterials.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardObjects.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CinematicCamera.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_FuelStation.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Demo.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_HoodCamera.cs" />
@@ -131,8 +133,6 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Vehicles.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardInputs.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_LevelLoader.cs" />
-    <Compile Include="Assets\Unlock_Assets\Shared\Scripts\CarComponents.cs" />
-    <Compile Include="Assets\Scripts\Destroy.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

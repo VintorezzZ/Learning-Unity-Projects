@@ -27,15 +27,11 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (!hit)
-        {
-            try
+        {            
+            rb = collision.other.GetComponentInChildren<Rigidbody>();
+            if (rb != null) 
             {
-                rb = collision.other.GetComponentInChildren<Rigidbody>();
                 rb.AddExplosionForce(explosionForce, transform.position, explosionRadius);
-            }
-            catch
-            {
-                Debug.Log("No rb");
             }
            
             //Instantiate(explosionSound, transform.position, transform.rotation);
@@ -44,7 +40,11 @@ public class Bullet : MonoBehaviour
             Destroy(go, 1f);
             hit = true;
 
-            collision.gameObject.GetComponent<Health>().GetDamage(damage);            
+            Health hp = collision.gameObject.GetComponent<Health>();
+            if (hp != null)
+            {
+                 hp.GetDamage(damage);          
+            }
         }
     }
 }

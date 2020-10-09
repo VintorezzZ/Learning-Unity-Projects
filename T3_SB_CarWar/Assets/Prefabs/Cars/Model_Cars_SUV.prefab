@@ -12074,9 +12074,9 @@ MonoBehaviour:
   targetChase: {fileID: 0}
   targetTag: Player
   _AIType: 0
-  wideRayLength: 100
-  tightRayLength: 100
-  sideRayLength: 100
+  wideRayLength: 60
+  tightRayLength: 60
+  sideRayLength: 40
   obstacleLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -12085,7 +12085,7 @@ MonoBehaviour:
   smoothedSteer: 0
   lap: 0
   totalWaypointPassed: 0
-  nextWaypointPassRadius: 40
+  nextWaypointPassRadius: 20
   ignoreWaypointNow: 0
   detectorRadius: 500
   targetsInZone: []
