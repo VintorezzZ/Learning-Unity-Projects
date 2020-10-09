@@ -63,6 +63,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Chassis.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CarControllerV3.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_TruckTrailer.cs" />
+    <Compile Include="Assets\Scripts\HealthPlayer.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_ColorPickerBySliders.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Skidmarks.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_FixedCamera.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UIController.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AICarController.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UIJoystick.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Exhaust.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AIBrakeZone.cs" />
@@ -96,6 +98,7 @@
     <Compile Include="Assets\Scripts\SpawnEnemies.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CinematicCamera.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_FuelStation.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Demo.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_HoodCamera.cs" />
@@ -128,14 +131,14 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Vehicles.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardInputs.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_LevelLoader.cs" />
-    <Compile Include="Assets\Scripts\Health.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\HealthPlayer.cs" />
+    <Compile Include="Assets\Unlock_Assets\Shared\Scripts\CarComponents.cs" />
+    <Compile Include="Assets\Scripts\Destroy.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Unlock_Assets\Shared\Prefabs\Projectors\Materials\Light Projector.shader" />
      <None Include="Assets\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\EffectExamples\Magic Effects\Shaders\Ice.shader" />
@@ -150,6 +153,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\tower-defense-assets\README.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\RCC Prefab Collection - Unlock Game Assets\ReadMe.txt" />
      <None Include="Assets\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
