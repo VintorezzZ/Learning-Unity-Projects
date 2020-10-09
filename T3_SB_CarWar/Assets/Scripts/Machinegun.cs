@@ -47,14 +47,14 @@ public class Machinegun : MonoBehaviour
     void RotateGun()
     {
         gunAngle += Input.GetAxis("Mouse X") * gunSpeed* Time.deltaTime;
-        gunAngle = Mathf.Clamp(gunAngle,-360,360);
+        gunAngle = Mathf.Clamp(gunAngle,-90,90);
         gun.localRotation = Quaternion.AngleAxis(gunAngle, Vector3.up);
     }
 
     void RotateBarrel()
     {
         barrelAngle += Input.GetAxis("Mouse Y") * barrelSpeed * -Time.deltaTime;
-        barrelAngle = Mathf.Clamp(barrelAngle, 0, 45);
+        barrelAngle = Mathf.Clamp(barrelAngle, -1, 20);
         barrel.localRotation = Quaternion.AngleAxis(barrelAngle, Vector3.right);
     }
 
