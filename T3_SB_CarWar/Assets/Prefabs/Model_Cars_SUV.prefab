@@ -11448,9 +11448,10 @@ GameObject:
   - component: {fileID: 6263495715080291658}
   - component: {fileID: 6263495715079028346}
   - component: {fileID: 6263495715085445471}
+  - component: {fileID: 5599695887069401770}
   m_Layer: 8
   m_Name: Model_Cars_SUV
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12088,6 +12089,20 @@ MonoBehaviour:
   ignoreWaypointNow: 0
   detectorRadius: 500
   targetsInZone: []
+--- !u!114 &5599695887069401770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6263495715085583360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544a2fd89f0cca643adbcbe34ba43782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  expl: {fileID: 7575587399278285863, guid: 5cbd3b967641bc94f9582c32245b6cde, type: 3}
 --- !u!1 &6263495715085590562
 GameObject:
   m_ObjectHideFlags: 0

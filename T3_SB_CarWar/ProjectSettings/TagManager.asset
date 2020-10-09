@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - Bullet
+  - Wall
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,7 @@ TagManager:
   - Lighting
   - Ground
   - Postprocessing
-  - 
+  - RCC
   - 
   - 
   - 

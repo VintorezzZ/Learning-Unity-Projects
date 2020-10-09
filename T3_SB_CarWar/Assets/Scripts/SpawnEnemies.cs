@@ -5,14 +5,29 @@ using UnityEngine;
 
 public class SpawnEnemies : MonoBehaviour
 {
+    public static SpawnEnemies instance;
+
     public List<Transform> spawnPool;
     public List<GameObject> enemiesList;
     public List<GameObject> deadList;
     public GameObject enemies;
     private float timer;
+    public int deadCount;
 
+    private void Awake()
+    {
+        if (!instance)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
     void Start()
     {
+        deadCount = 0;
         _SpawnEnemies();
     }
 

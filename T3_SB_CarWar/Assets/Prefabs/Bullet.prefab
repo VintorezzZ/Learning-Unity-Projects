@@ -255,6 +255,7 @@ MonoBehaviour:
     type: 3}
   explosionForce: 100000
   explosionRadius: 100
+  damage: 50
 --- !u!135 &3891914499535374163
 SphereCollider:
   m_ObjectHideFlags: 0

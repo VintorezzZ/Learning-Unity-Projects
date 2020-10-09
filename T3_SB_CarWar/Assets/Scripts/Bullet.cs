@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour
     private Rigidbody rb;
     public float explosionForce;
     public float explosionRadius;
+    public int damage = 25;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +43,8 @@ public class Bullet : MonoBehaviour
             //Destroy(explosionSound, 4f);
             Destroy(go, 1f);
             hit = true;
+
+            collision.gameObject.GetComponent<Health>().GetDamage(damage);            
         }
     }
 }

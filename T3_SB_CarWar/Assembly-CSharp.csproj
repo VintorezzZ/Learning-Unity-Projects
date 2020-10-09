@@ -88,6 +88,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UIController.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AICarController.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_UIJoystick.cs" />
+    <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Exhaust.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AIBrakeZone.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_PoliceSiren.cs" />
@@ -127,7 +128,9 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Vehicles.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardInputs.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_LevelLoader.cs" />
-    <Compile Include="Assets\Scripts\Laser.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\HealthPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

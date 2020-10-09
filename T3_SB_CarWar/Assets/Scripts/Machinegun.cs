@@ -25,7 +25,7 @@ public class Machinegun : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        
     }
     private void Update()
     {        
@@ -63,19 +63,19 @@ public class Machinegun : MonoBehaviour
         GameObject bulletInstanceR;
         GameObject bulletInstanceL;
 
-        bulletInstanceR = Instantiate(bullet, barrelR.position, Quaternion.identity) as GameObject;
+        //bulletInstanceR = Instantiate(bullet, barrelR.position, Quaternion.identity) as GameObject;
         bulletInstanceL = Instantiate(bullet, barrelL.position, Quaternion.identity) as GameObject;
 
-        Rigidbody bulletRbR;
+        //Rigidbody bulletRbR;
         Rigidbody bulletRbL;
 
-        bulletRbR = bulletInstanceR.GetComponent<Rigidbody>();
+       // bulletRbR = bulletInstanceR.GetComponent<Rigidbody>();
         bulletRbL = bulletInstanceL.GetComponent<Rigidbody>();
 
-        bulletRbR.AddForce(barrelR.forward * bulletSpeed);
+       // bulletRbR.AddForce(barrelR.forward * bulletSpeed);
         bulletRbL.AddForce(barrelL.forward * bulletSpeed);
 
-        Destroy(bulletInstanceR, 10f);
+       // Destroy(bulletInstanceR, 10f);
         Destroy(bulletInstanceL, 10f);
 
         currentAmmo--;
