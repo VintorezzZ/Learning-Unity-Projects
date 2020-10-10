@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     public float time;
     public int ammo;
     bool gameover = false;
+
+    public AudioListener audioListener;
     private void Awake()
     {
         if (!instance)
@@ -58,8 +60,8 @@ public class GameManager : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 optinonsPanel.SetActive(true);
                 whilePlayPanel.SetActive(false);
-                //optionsButton.SetActive(false);
-                //ChangeTimeScale();
+                AudioListener.volume = 0;
+                ChangeTimeScale();
                 Pause = true;
             }
             else
@@ -67,12 +69,10 @@ public class GameManager : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
                 optinonsPanel.SetActive(false);
                 whilePlayPanel.SetActive(true);
-                //optionsButton.SetActive(true);
+                AudioListener.volume = 1;
                 Pause = false;
-                //ChangeTimeScale();
+                ChangeTimeScale();
             }
-            
-            //Time.timeScale = -Time.timeScale;
         }
 
         UpdateUI();
@@ -82,22 +82,14 @@ public class GameManager : MonoBehaviour
 
     public void ChangeTimeScale()
     {
-        //if (Time.timeScale == 1)
-        //{
-        //    Time.timeScale = 0;
-        //}
-        //else
-        //{
-        //    Time.timeScale = 1;
-        //}
-
-        //if (Cursor.lockState == CursorLockMode.Locked)
-        //{
-        //    Cursor.lockState = CursorLockMode.None;
-        //}
-        //else
-        //    Cursor.lockState = CursorLockMode.Locked;
-
+        if (Time.timeScale == 1)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
     }
 
     public void RestartGame()

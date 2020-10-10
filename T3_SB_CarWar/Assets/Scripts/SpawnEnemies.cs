@@ -11,7 +11,7 @@ public class SpawnEnemies : MonoBehaviour
     public List<GameObject> enemiesList;
     //public List<GameObject> deadList;
     public GameObject enemies;
-    private float timer = 20;
+    private float timer = 10;
 
 
     private void Awake()
@@ -36,7 +36,7 @@ public class SpawnEnemies : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0) 
         {
-            timer = 20;
+            timer = 10;
             _SpawnEnemies();
         }
 
@@ -47,7 +47,7 @@ public class SpawnEnemies : MonoBehaviour
     {
         for (int i = 0; i < spawnPool.Count; i++)
         {
-            Instantiate(enemiesList[i], spawnPool[i].position, Quaternion.identity);
+            Instantiate(enemiesList[i], spawnPool[i].position, spawnPool[i].rotation);
 
         }
     }

@@ -1143,7 +1143,7 @@ PrefabInstance:
         type: 3}
       propertyPath: deathUI
       value: 
-      objectReference: {fileID: 756924014381127785, guid: f72caf9e9ea0fa746a678b7bad66904b,
+      objectReference: {fileID: 5970299062524936849, guid: f72caf9e9ea0fa746a678b7bad66904b,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 279f5e2f3450ee643b9898ceb99a8f80, type: 3}
