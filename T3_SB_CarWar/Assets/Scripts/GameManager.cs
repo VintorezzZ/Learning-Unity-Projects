@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using MoreMountains.Feedbacks;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,7 +26,8 @@ public class GameManager : MonoBehaviour
     public int ammo;
     bool gameover = false;
 
-    public AudioListener audioListener;
+    private AudioListener audioListener;
+    public MMFeedbacks shakeFeedback;
     private void Awake()
     {
         if (!instance)
@@ -144,5 +146,10 @@ public class GameManager : MonoBehaviour
     public void UpdateAmmo(int _ammo)
     {
         ammo = _ammo;
+    }
+
+    public void PlayFeedbacks()
+    {
+        shakeFeedback.PlayFeedbacks();
     }
 }

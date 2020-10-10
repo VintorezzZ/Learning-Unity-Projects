@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
     public int maxHealth;
     public ParticleSystem expl;
     [SerializeField] private int pointsToAdd;
-
+    
     void Start()
     {
         health = maxHealth;
@@ -21,6 +21,7 @@ public class Health : MonoBehaviour
         {
             health = 0;
             GameManager.instance.CountPoints(pointsToAdd);
+            GameManager.instance.PlayFeedbacks();
             Instantiate(expl, transform.position,transform.rotation);
             Destroy(this.gameObject, 0f);
         }
