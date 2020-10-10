@@ -9,10 +9,10 @@ public class SpawnEnemies : MonoBehaviour
 
     public List<Transform> spawnPool;
     public List<GameObject> enemiesList;
-    public List<GameObject> deadList;
+    //public List<GameObject> deadList;
     public GameObject enemies;
-    private float timer;
-    public int deadCount;
+    private float timer = 20;
+
 
     private void Awake()
     {
@@ -26,20 +26,21 @@ public class SpawnEnemies : MonoBehaviour
         }
     }
     void Start()
-    {
-        deadCount = 0;
+    {        
         _SpawnEnemies();
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= 20f) 
+        timer -= Time.deltaTime;
+        if (timer <= 0) 
         {
-            timer = 0;
+            timer = 20;
             _SpawnEnemies();
         }
+
+        GameManager.instance.UpdateTimer(timer);
     }
 
     void _SpawnEnemies()

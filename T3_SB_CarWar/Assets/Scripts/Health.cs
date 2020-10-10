@@ -7,16 +7,11 @@ public class Health : MonoBehaviour
     private int health;
     public int maxHealth;
     public ParticleSystem expl;
+    [SerializeField] private int pointsToAdd;
 
     void Start()
     {
         health = maxHealth;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void GetDamage(int damage)
@@ -24,8 +19,8 @@ public class Health : MonoBehaviour
         health -= damage;
         if (health <= 0) 
         {
-            health = 0;            
-            SpawnEnemies.instance.deadList.Add(this.gameObject);
+            health = 0;
+            GameManager.instance.CountPoints(pointsToAdd);
             Instantiate(expl, transform.position,transform.rotation);
             Destroy(this.gameObject, 0f);
         }
@@ -35,10 +30,7 @@ public class Health : MonoBehaviour
     {
         if (collision.transform.tag == "Wall")
         {
-            health = 0;
-            SpawnEnemies.instance.deadCount++;
-            Instantiate(expl, transform.position, transform.rotation);
-            Destroy(this.gameObject, 0f);
+            GetDamage(maxHealth);
         }
         else if (collision.transform.tag == "Enemy")
         {

@@ -1156,6 +1156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   expl: {fileID: 7575587399278285863, guid: 5cbd3b967641bc94f9582c32245b6cde, type: 3}
+  pointsToAdd: 10
 --- !u!1 &3723837979070475820
 GameObject:
   m_ObjectHideFlags: 0

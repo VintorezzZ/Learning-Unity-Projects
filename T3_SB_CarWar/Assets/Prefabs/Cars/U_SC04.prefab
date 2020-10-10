@@ -1052,15 +1052,15 @@ MonoBehaviour:
   targetChase: {fileID: 0}
   targetTag: Player
   _AIType: 0
-  wideRayLength: 30
-  tightRayLength: 30
-  sideRayLength: 40
+  wideRayLength: 60
+  tightRayLength: 60
+  sideRayLength: 80
   obstacleLayers:
     serializedVersion: 2
     m_Bits: 4294967295
   limitSpeed: 0
   maximumSpeed: 100
-  smoothedSteer: 0
+  smoothedSteer: 1
   lap: 0
   totalWaypointPassed: 0
   nextWaypointPassRadius: 40
@@ -1081,6 +1081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   expl: {fileID: 7575587399278285863, guid: 5cbd3b967641bc94f9582c32245b6cde, type: 3}
+  pointsToAdd: 10
 --- !u!1 &452904186172769437
 GameObject:
   m_ObjectHideFlags: 0

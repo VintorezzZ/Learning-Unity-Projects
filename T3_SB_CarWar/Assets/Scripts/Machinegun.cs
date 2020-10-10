@@ -23,6 +23,7 @@ public class Machinegun : MonoBehaviour
     private int currentAmmo = 30;
     private float timer;
 
+
     private void Start()
     {
         
@@ -42,6 +43,7 @@ public class Machinegun : MonoBehaviour
         }
 
         UpdateAmmo();
+        GameManager.instance.UpdateAmmo(currentAmmo);
     }
 
     void RotateGun()
