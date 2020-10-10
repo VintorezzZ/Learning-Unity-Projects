@@ -59,6 +59,8 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_TrailerAttachPoint.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_AIO.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_ChangableWheels.cs" />
+    <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoBall.cs" />
+    <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoGhost.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Caliper.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Chassis.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CarControllerV3.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Light.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Camera.cs" />
+    <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoButton.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_CameraCarSelection.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_LightEmission.cs" />
@@ -133,9 +136,6 @@
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_Vehicles.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_DashboardInputs.cs" />
     <Compile Include="Assets\RealisticCarControllerV3\Scripts\RCC_LevelLoader.cs" />
-    <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoBall.cs" />
-    <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoGhost.cs" />
-    <Compile Include="Assets\MMFeedbacks\MMFeedbacks\Demos\MMFeedbacksDemo\Scripts\DemoButton.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
