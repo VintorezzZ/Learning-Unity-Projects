@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7406824203558627677}
   - component: {fileID: 8798118055071788931}
+  - component: {fileID: 1061410310}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -41,5 +42,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 736e2986550998547803174f5bbb6759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathUI: {fileID: 5970299062524936849, guid: f72caf9e9ea0fa746a678b7bad66904b, type: 3}
+  optinonsPanel: {fileID: 0}
+  whilePlayPanel: {fileID: 0}
+  optionsButton: {fileID: 0}
+  scoreText: {fileID: 0}
+  deathScoreText: {fileID: 0}
+  deadCountText: {fileID: 0}
+  timeText: {fileID: 0}
+  ammoText: {fileID: 0}
+  deadCount: 0
+  time: 0
+  ammo: 0
+  shakeFeedback: {fileID: 0}
+--- !u!114 &1061410310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3579977364549429206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0740902bf93239641ab82a601e387797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
