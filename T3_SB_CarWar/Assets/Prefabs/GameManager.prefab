@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathUI: {fileID: 0}
-  optinonsPanel: {fileID: 0}
+  optionsPanel: {fileID: 0}
   whilePlayPanel: {fileID: 0}
   optionsButton: {fileID: 0}
   scoreText: {fileID: 0}
@@ -53,11 +53,13 @@ MonoBehaviour:
   deadCountText: {fileID: 0}
   timeText: {fileID: 0}
   ammoText: {fileID: 0}
+  sensSlider: {fileID: 0}
+  sens: 100
   deadCount: 0
   time: 0
   ammo: 0
-  music: {fileID: 0}
   shakeFeedback: {fileID: 0}
+  globalMute: 0
 --- !u!114 &1061410310
 MonoBehaviour:
   m_ObjectHideFlags: 0

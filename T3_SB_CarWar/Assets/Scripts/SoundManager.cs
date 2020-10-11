@@ -45,10 +45,6 @@ public class SoundManager : MonoBehaviour
                 AudioListener.volume = 1;
         }
 
-        //if (AudioListener.volume == 1)
-        //    AudioListener.volume = 0;
-        //else
-        //    AudioListener.volume = 1;
     }
  
 }

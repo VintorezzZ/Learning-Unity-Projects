@@ -18,16 +18,20 @@ public class GameManager : MonoBehaviour
     public Text deadCountText;
     public Text timeText;
     public Text ammoText;
+    public Slider sensSlider;
+    public float sens = 100;
 
-    bool pause = false;
     private int points;
     public int deadCount;
     public float time;
     public int ammo;
-    bool gameover = false;
 
     public MMFeedbacks shakeFeedback;
     public bool globalMute = false;
+    private bool gameover = false;
+    private bool pause = false; 
+
+
 
     private void Awake()
     {
@@ -56,8 +60,7 @@ public class GameManager : MonoBehaviour
             return;
 
         if (Input.GetKeyDown(KeyCode.Escape))
-        {            
-
+        {        
             if (!pause)
             {
                 pause = true;
@@ -71,7 +74,6 @@ public class GameManager : MonoBehaviour
         }
 
         UpdateUI();
-
     }
 
     void Pause_On()
@@ -196,6 +198,6 @@ public class GameManager : MonoBehaviour
 
     public void SetSensetivity()
     {
-
+        sens = sensSlider.value;
     }
 }
