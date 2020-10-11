@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public GameObject deathUI;
-    public GameObject optinonsPanel;
+    public GameObject optionsPanel;
     public GameObject whilePlayPanel;
     public GameObject optionsButton;
     public Text scoreText;
@@ -19,15 +19,16 @@ public class GameManager : MonoBehaviour
     public Text timeText;
     public Text ammoText;
 
-    bool Pause = false;
+    bool pause = false;
     private int points;
     public int deadCount;
     public float time;
     public int ammo;
     bool gameover = false;
 
-    private AudioListener audioListener;
     public MMFeedbacks shakeFeedback;
+    public bool globalMute = false;
+
     private void Awake()
     {
         if (!instance)
@@ -57,23 +58,15 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {            
 
-            if (!Pause)
+            if (!pause)
             {
-                Cursor.lockState = CursorLockMode.None;
-                optinonsPanel.SetActive(true);
-                whilePlayPanel.SetActive(false);
-                AudioListener.volume = 0;
-                ChangeTimeScale();
-                Pause = true;
+                pause = true;
+                Pause_On();
             }
             else
             {
-                Cursor.lockState = CursorLockMode.Locked;
-                optinonsPanel.SetActive(false);
-                whilePlayPanel.SetActive(true);
-                AudioListener.volume = 1;
-                Pause = false;
-                ChangeTimeScale();
+                pause = false;
+                Pause_Off();
             }
         }
 
@@ -81,6 +74,31 @@ public class GameManager : MonoBehaviour
 
     }
 
+    void Pause_On()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        optionsPanel.SetActive(true);
+        whilePlayPanel.SetActive(false);
+        ChangeTimeScale();
+
+        if (globalMute)
+            return;
+
+        MuteAllSounds();
+    }
+
+    void Pause_Off()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        optionsPanel.SetActive(false);
+        whilePlayPanel.SetActive(true);
+        ChangeTimeScale();
+
+        if (globalMute)
+            return;
+
+        MuteAllSounds();
+    }
 
     public void ChangeTimeScale()
     {
@@ -119,7 +137,7 @@ public class GameManager : MonoBehaviour
         gameover = true;
         deathUI.SetActive(true);
         whilePlayPanel.SetActive(false);
-        optinonsPanel.SetActive(false);
+        optionsPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.None;
     }
 
@@ -131,11 +149,19 @@ public class GameManager : MonoBehaviour
 
     void UpdateUI()
     {
-        scoreText.text = "Score  " + points.ToString();
-        deathScoreText.text = "Score   " + points.ToString();
-        timeText.text = "Next wave    \n" + time.ToString("0");
-        ammoText.text = ammo.ToString() + "  Ammo";
-        deadCountText.text = "Cars destroyed   " + deadCount.ToString();
+        try
+        {
+            scoreText.text = "Score  " + points.ToString();
+            deathScoreText.text = "Score   " + points.ToString();
+            timeText.text = "Next wave    \n" + time.ToString("0");
+            ammoText.text = ammo.ToString() + "  Ammo";
+            deadCountText.text = "Cars destroyed   " + deadCount.ToString();
+        }
+        catch (System.Exception)
+        {
+            Debug.Log("Need to fix this");
+        }
+       
     }
 
     public void UpdateTimer(float _time)
@@ -151,5 +177,25 @@ public class GameManager : MonoBehaviour
     public void PlayFeedbacks()
     {
         shakeFeedback.PlayFeedbacks();
+    }
+
+    public void MuteBgMusic()
+    {
+        SoundManager.instance.MuteBgMusic();
+    }
+
+    public void MuteAllSounds()
+    { 
+        SoundManager.instance.MuteAllSounds();    
+    }
+
+    public void GlobalMute()
+    {
+        globalMute = !globalMute;  
+    }
+
+    public void SetSensetivity()
+    {
+
     }
 }

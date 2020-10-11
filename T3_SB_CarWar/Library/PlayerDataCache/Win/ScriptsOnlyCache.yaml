@@ -80,6 +80,8 @@ ScriptsOnlyBuild:
     - MoreMountains.Feedbacks.MMFeedbacksShaker
     MoreMountains.NiceVibrations.dll:
     - MoreMountains.NiceVibrations.MMNVPath
+    MoreMountains.Tools.Editor.dll:
+    - MoreMountains.Tools.MMMonoBehaviourDrawer
     MoreMountains.Tools.dll:
     - MoreMountains.Tools.MMAchievementDisplayItem
     - MoreMountains.Tools.MMDebugOnScreenConsole
@@ -321,57 +323,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14596}
     - Class: 114
-      Script: {instanceID: 14696}
+      Script: {instanceID: 14690}
     - Class: 114
-      Script: {instanceID: 14766}
+      Script: {instanceID: 14698}
     - Class: 114
-      Script: {instanceID: 14772}
+      Script: {instanceID: 14768}
     - Class: 114
-      Script: {instanceID: 14798}
+      Script: {instanceID: 14774}
     - Class: 114
-      Script: {instanceID: 15184}
+      Script: {instanceID: 14800}
     - Class: 114
-      Script: {instanceID: 15208}
+      Script: {instanceID: 15186}
     - Class: 114
-      Script: {instanceID: 15220}
+      Script: {instanceID: 15210}
     - Class: 114
-      Script: {instanceID: 15268}
+      Script: {instanceID: 15222}
     - Class: 114
-      Script: {instanceID: 15304}
+      Script: {instanceID: 15270}
     - Class: 114
-      Script: {instanceID: 15336}
+      Script: {instanceID: 15306}
     - Class: 114
-      Script: {instanceID: 15346}
+      Script: {instanceID: 15338}
     - Class: 114
-      Script: {instanceID: 15476}
+      Script: {instanceID: 15348}
     - Class: 114
-      Script: {instanceID: 15504}
+      Script: {instanceID: 15478}
     - Class: 114
-      Script: {instanceID: 15568}
+      Script: {instanceID: 15506}
     - Class: 114
-      Script: {instanceID: 15578}
+      Script: {instanceID: 15570}
     - Class: 114
-      Script: {instanceID: 15626}
+      Script: {instanceID: 15580}
     - Class: 114
       Script: {instanceID: 15628}
     - Class: 114
-      Script: {instanceID: 15638}
+      Script: {instanceID: 15630}
     - Class: 114
-      Script: {instanceID: 15678}
+      Script: {instanceID: 15640}
     - Class: 114
-      Script: {instanceID: 15708}
+      Script: {instanceID: 15680}
     - Class: 114
-      Script: {instanceID: 15712}
+      Script: {instanceID: 15710}
     - Class: 114
-      Script: {instanceID: 15732}
+      Script: {instanceID: 15714}
     - Class: 114
-      Script: {instanceID: 15754}
+      Script: {instanceID: 15734}
     - Class: 114
-      Script: {instanceID: 15784}
+      Script: {instanceID: 15756}
     - Class: 114
       Script: {instanceID: 15786}
     - Class: 114
-      Script: {instanceID: 23496}
+      Script: {instanceID: 15788}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -451,6 +453,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -488,7 +492,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11912}
     - Class: 114
+      Script: {instanceID: 11916}
+    - Class: 114
       Script: {instanceID: 11948}
+    - Class: 114
+      Script: {instanceID: 11988}
     - Class: 114
       Script: {instanceID: 12010}
     - Class: 114
@@ -497,6 +505,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12118}
     - Class: 114
       Script: {instanceID: 12134}
+    - Class: 114
+      Script: {instanceID: 12164}
+    - Class: 114
+      Script: {instanceID: 12176}
     - Class: 114
       Script: {instanceID: 12186}
     - Class: 114
@@ -513,6 +525,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12438}
     - Class: 114
       Script: {instanceID: 12478}
+    - Class: 114
+      Script: {instanceID: 12584}
+    - Class: 114
+      Script: {instanceID: 12638}
     - Class: 114
       Script: {instanceID: 12742}
     - Class: 114
@@ -544,6 +560,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13344}
     - Class: 114
+      Script: {instanceID: 13346}
+    - Class: 114
       Script: {instanceID: 13372}
     - Class: 114
       Script: {instanceID: 13490}
@@ -552,11 +570,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13510}
     - Class: 114
+      Script: {instanceID: 13578}
+    - Class: 114
       Script: {instanceID: 13592}
+    - Class: 114
+      Script: {instanceID: 13724}
     - Class: 114
       Script: {instanceID: 13812}
     - Class: 114
       Script: {instanceID: 13942}
+    - Class: 114
+      Script: {instanceID: 13986}
     - Class: 114
       Script: {instanceID: 14110}
     - Class: 114
@@ -582,51 +606,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14596}
     - Class: 114
-      Script: {instanceID: 14772}
+      Script: {instanceID: 14690}
     - Class: 114
-      Script: {instanceID: 15008}
+      Script: {instanceID: 14768}
     - Class: 114
-      Script: {instanceID: 15184}
+      Script: {instanceID: 14774}
     - Class: 114
-      Script: {instanceID: 15208}
+      Script: {instanceID: 15010}
     - Class: 114
-      Script: {instanceID: 15220}
+      Script: {instanceID: 15186}
     - Class: 114
-      Script: {instanceID: 15268}
+      Script: {instanceID: 15210}
     - Class: 114
-      Script: {instanceID: 15304}
+      Script: {instanceID: 15222}
     - Class: 114
-      Script: {instanceID: 15336}
+      Script: {instanceID: 15270}
     - Class: 114
-      Script: {instanceID: 15346}
+      Script: {instanceID: 15306}
     - Class: 114
-      Script: {instanceID: 15362}
+      Script: {instanceID: 15338}
     - Class: 114
-      Script: {instanceID: 15448}
+      Script: {instanceID: 15348}
     - Class: 114
-      Script: {instanceID: 15568}
+      Script: {instanceID: 15364}
     - Class: 114
-      Script: {instanceID: 15578}
+      Script: {instanceID: 15450}
     - Class: 114
-      Script: {instanceID: 15638}
+      Script: {instanceID: 15506}
     - Class: 114
-      Script: {instanceID: 15652}
+      Script: {instanceID: 15570}
     - Class: 114
-      Script: {instanceID: 15678}
+      Script: {instanceID: 15580}
     - Class: 114
-      Script: {instanceID: 15708}
+      Script: {instanceID: 15628}
     - Class: 114
-      Script: {instanceID: 15712}
+      Script: {instanceID: 15640}
     - Class: 114
-      Script: {instanceID: 15732}
+      Script: {instanceID: 15654}
     - Class: 114
-      Script: {instanceID: 15754}
+      Script: {instanceID: 15680}
     - Class: 114
-      Script: {instanceID: 15784}
+      Script: {instanceID: 15710}
+    - Class: 114
+      Script: {instanceID: 15714}
+    - Class: 114
+      Script: {instanceID: 15734}
+    - Class: 114
+      Script: {instanceID: 15756}
     - Class: 114
       Script: {instanceID: 15786}
     - Class: 114
-      Script: {instanceID: 23496}
+      Script: {instanceID: 15788}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -2810,6 +2840,12 @@ ScriptsOnlyBuild:
     className: BallDemoWall
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPScounter
+  - hash:
+      serializedVersion: 2
       Hash: bae2cd4c3fad1ed271d7cfc9f746d33c
     assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
     namespaceName: MoreMountains.FeedbacksForThirdParty
@@ -3660,14 +3696,8 @@ ScriptsOnlyBuild:
     assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
     namespaceName: MoreMountains.FeedbacksForThirdParty
     className: MMCinemachineFieldOfViewShaker
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FPScounter
   platform: 5
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/Main.unity
-  playerPath: D:/Programming/UnityProjects/MyProjects/APK/T3_SB_CarWar.exe
+  playerPath: D:/Programming/UnityProjects/MyProjects/APK/CarWar_Build/T3_SB_CarWar.exe
