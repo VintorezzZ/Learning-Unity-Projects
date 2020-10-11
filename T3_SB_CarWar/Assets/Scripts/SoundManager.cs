@@ -18,13 +18,14 @@ public class SoundManager : MonoBehaviour
         if (!instance)
         {
             instance = this;
+            DontDestroyOnLoad(this);
         }
         else
         {
             Destroy(this);
         }
 
-        DontDestroyOnLoad(this);
+        
     }
 
     public void MuteBgMusic()

@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public SoundManager soundManager;
 
     public GameObject deathUI;
     public GameObject optionsPanel;
@@ -46,6 +47,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        Instantiate(soundManager);
         SoundManager.instance.pauseMute = false;
         SoundManager.instance.MuteAllSounds();
         points = 0;
