@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2050214683}
   m_Layer: 0
   m_Name: SoundManager
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,5 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67a98fd7b9fb194291f3a93482cc3e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMute: 0
+  globalMute: 0
   muteMusic: 0
   music: {fileID: 134340620388614347}

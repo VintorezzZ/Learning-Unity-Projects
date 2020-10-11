@@ -18,14 +18,16 @@ public class SoundManager : MonoBehaviour
         if (!instance)
         {
             instance = this;
-            DontDestroyOnLoad(this);
-        }
-        else
+        } 
+
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("Music");
+
+        if (objs.Length > 1)
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
 
-        
+        DontDestroyOnLoad(this.gameObject);
     }
 
     public void MuteBgMusic()
