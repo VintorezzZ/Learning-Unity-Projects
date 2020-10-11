@@ -59,7 +59,7 @@ MonoBehaviour:
   time: 0
   ammo: 0
   shakeFeedback: {fileID: 0}
-  globalMute: 0
+  pause: 0
 --- !u!114 &1061410310
 MonoBehaviour:
   m_ObjectHideFlags: 0

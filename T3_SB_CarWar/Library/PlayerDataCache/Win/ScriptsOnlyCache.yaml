@@ -52,6 +52,7 @@ ScriptsOnlyBuild:
     - RCC_Vehicles
     - RCC_WheelCamera
     - RCC_WheelCollider
+    - SoundManager
     - SpawnEnemies
     Cinemachine.dll:
     - Cinemachine.CinemachineBasicMultiChannelPerlin
@@ -80,8 +81,6 @@ ScriptsOnlyBuild:
     - MoreMountains.Feedbacks.MMFeedbacksShaker
     MoreMountains.NiceVibrations.dll:
     - MoreMountains.NiceVibrations.MMNVPath
-    MoreMountains.Tools.Editor.dll:
-    - MoreMountains.Tools.MMMonoBehaviourDrawer
     MoreMountains.Tools.dll:
     - MoreMountains.Tools.MMAchievementDisplayItem
     - MoreMountains.Tools.MMDebugOnScreenConsole
@@ -347,33 +346,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15348}
     - Class: 114
-      Script: {instanceID: 15478}
+      Script: {instanceID: 15480}
     - Class: 114
-      Script: {instanceID: 15506}
+      Script: {instanceID: 15508}
     - Class: 114
-      Script: {instanceID: 15570}
+      Script: {instanceID: 15572}
     - Class: 114
-      Script: {instanceID: 15580}
-    - Class: 114
-      Script: {instanceID: 15628}
+      Script: {instanceID: 15582}
     - Class: 114
       Script: {instanceID: 15630}
     - Class: 114
-      Script: {instanceID: 15640}
+      Script: {instanceID: 15632}
     - Class: 114
-      Script: {instanceID: 15680}
+      Script: {instanceID: 15642}
     - Class: 114
-      Script: {instanceID: 15710}
+      Script: {instanceID: 15682}
     - Class: 114
-      Script: {instanceID: 15714}
+      Script: {instanceID: 15712}
     - Class: 114
-      Script: {instanceID: 15734}
+      Script: {instanceID: 15716}
     - Class: 114
-      Script: {instanceID: 15756}
+      Script: {instanceID: 15736}
     - Class: 114
-      Script: {instanceID: 15786}
+      Script: {instanceID: 15758}
     - Class: 114
       Script: {instanceID: 15788}
+    - Class: 114
+      Script: {instanceID: 15790}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -415,12 +414,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
-      Script: {instanceID: 0}
-    - Class: 241
-      Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -630,33 +623,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15364}
     - Class: 114
-      Script: {instanceID: 15450}
+      Script: {instanceID: 15428}
     - Class: 114
-      Script: {instanceID: 15506}
+      Script: {instanceID: 15452}
     - Class: 114
-      Script: {instanceID: 15570}
+      Script: {instanceID: 15508}
     - Class: 114
-      Script: {instanceID: 15580}
+      Script: {instanceID: 15572}
     - Class: 114
-      Script: {instanceID: 15628}
+      Script: {instanceID: 15582}
     - Class: 114
-      Script: {instanceID: 15640}
+      Script: {instanceID: 15630}
     - Class: 114
-      Script: {instanceID: 15654}
+      Script: {instanceID: 15642}
     - Class: 114
-      Script: {instanceID: 15680}
+      Script: {instanceID: 15656}
     - Class: 114
-      Script: {instanceID: 15710}
+      Script: {instanceID: 15682}
     - Class: 114
-      Script: {instanceID: 15714}
+      Script: {instanceID: 15712}
     - Class: 114
-      Script: {instanceID: 15734}
+      Script: {instanceID: 15716}
     - Class: 114
-      Script: {instanceID: 15756}
+      Script: {instanceID: 15736}
     - Class: 114
-      Script: {instanceID: 15786}
+      Script: {instanceID: 15758}
     - Class: 114
       Script: {instanceID: 15788}
+    - Class: 114
+      Script: {instanceID: 15790}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 119
@@ -698,6 +693,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -1952,7 +1953,7 @@ ScriptsOnlyBuild:
     className: RCC_UIJoystick
   - hash:
       serializedVersion: 2
-      Hash: aff781baa8d6cf564965634751fdb8e7
+      Hash: 558e2bcf7e02429e1edd1ef28af4a2d3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -3330,6 +3331,12 @@ ScriptsOnlyBuild:
     assemblyName: MoreMountains.Feedbacks.dll
     namespaceName: MoreMountains.Feedbacks
     className: MMFeedbackAudioSourceStereoPan
+  - hash:
+      serializedVersion: 2
+      Hash: 499c537c552816ef2dde89072092751f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
   - hash:
       serializedVersion: 2
       Hash: 5cae513aa54e26135f8e8444cc50fa84

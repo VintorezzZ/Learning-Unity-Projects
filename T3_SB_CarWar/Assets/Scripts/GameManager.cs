@@ -27,10 +27,10 @@ public class GameManager : MonoBehaviour
     public int ammo;
 
     public MMFeedbacks shakeFeedback;
-    public bool globalMute = false;
+    
     private bool gameover = false;
-    private bool pause = false; 
-
+    public bool pause = false;
+    //private bool mute;
 
 
     private void Awake()
@@ -46,6 +46,8 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        SoundManager.instance.pauseMute = false;
+        SoundManager.instance.MuteAllSounds();
         points = 0;
         Time.timeScale = 1;
         if (SceneManager.GetActiveScene().name == "Start")        
@@ -76,27 +78,29 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
-    void Pause_On()
+    public void Pause_On()
     {
+        SoundManager.instance.pauseMute = true;
         Cursor.lockState = CursorLockMode.None;
         optionsPanel.SetActive(true);
         whilePlayPanel.SetActive(false);
         ChangeTimeScale();
 
-        if (globalMute)
+        if (SoundManager.instance.globalMute)
             return;
 
         MuteAllSounds();
     }
 
-    void Pause_Off()
+    public void Pause_Off()
     {
+        SoundManager.instance.pauseMute = false;
         Cursor.lockState = CursorLockMode.Locked;
         optionsPanel.SetActive(false);
         whilePlayPanel.SetActive(true);
         ChangeTimeScale();
 
-        if (globalMute)
+        if (SoundManager.instance.globalMute)
             return;
 
         MuteAllSounds();
@@ -193,7 +197,7 @@ public class GameManager : MonoBehaviour
 
     public void GlobalMute()
     {
-        globalMute = !globalMute;  
+        SoundManager.instance.globalMute = !SoundManager.instance.globalMute;  
     }
 
     public void SetSensetivity()

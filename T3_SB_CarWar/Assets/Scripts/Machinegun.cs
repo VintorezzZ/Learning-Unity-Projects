@@ -33,7 +33,7 @@ public class Machinegun : MonoBehaviour
         RotateGun();
         RotateBarrel();
 
-        if (Input.GetButton("Fire1") && Time.time > nextTimeToFire)
+        if (Input.GetButton("Fire1") && Time.time > nextTimeToFire && !GameManager.instance.pause)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
             if (currentAmmo > 0)
