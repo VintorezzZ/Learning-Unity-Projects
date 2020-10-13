@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Machinegun : MonoBehaviour
 {
@@ -30,17 +31,25 @@ public class Machinegun : MonoBehaviour
     }
     private void Update()
     {        
-        RotateGun();
-        RotateBarrel();
+        //RotateGun();
+        //RotateBarrel();
 
-        if (Input.GetButton("Fire1") && Time.time > nextTimeToFire && !GameManager.instance.pause)
-        {
-            nextTimeToFire = Time.time + 1f / fireRate;
-            if (currentAmmo > 0)
-            {
-                Shoot();
-            }                        
-        }
+        //if (!GameManager.instance.pause)
+        //{
+        //    if (EventSystem.current.IsPointerOverGameObject())
+        //        return;
+
+        //    if (Time.time > nextTimeToFire)
+        //    {
+        //        nextTimeToFire = Time.time + 1f / fireRate;
+        //        if (currentAmmo > 0)
+        //        {
+        //            Shoot();
+        //        }                       
+
+        //    }
+
+        //}
 
         UpdateAmmo();
         GameManager.instance.UpdateAmmo(currentAmmo);

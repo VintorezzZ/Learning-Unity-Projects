@@ -7,7 +7,7 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance;
 
     public bool pauseMute = false;
-    public bool globalMute = false;
+    public bool globalMute = true;
     public bool muteMusic = false;
     public AudioSource music;
     private AudioListener audioListener;

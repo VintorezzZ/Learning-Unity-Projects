@@ -52,10 +52,10 @@ public class GameManager : MonoBehaviour
         SoundManager.instance.MuteAllSounds();
         points = 0;
         Time.timeScale = 1;
-        if (SceneManager.GetActiveScene().name == "Start")        
-            Cursor.lockState = CursorLockMode.None;        
-        else
-            Cursor.lockState = CursorLockMode.Locked;
+        //if (SceneManager.GetActiveScene().name == "Start")        
+        //    Cursor.lockState = CursorLockMode.None;        
+        //else
+        //    Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
     public void Pause_On()
     {
         SoundManager.instance.pauseMute = true;
-        Cursor.lockState = CursorLockMode.None;
+        //Cursor.lockState = CursorLockMode.None;
         optionsPanel.SetActive(true);
         whilePlayPanel.SetActive(false);
         ChangeTimeScale();
@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
     public void Pause_Off()
     {
         SoundManager.instance.pauseMute = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         optionsPanel.SetActive(false);
         whilePlayPanel.SetActive(true);
         ChangeTimeScale();
@@ -146,7 +146,7 @@ public class GameManager : MonoBehaviour
         deathUI.SetActive(true);
         whilePlayPanel.SetActive(false);
         optionsPanel.SetActive(false);
-        Cursor.lockState = CursorLockMode.None;
+        //Cursor.lockState = CursorLockMode.None;
     }
 
     public void CountPoints(int _points)
