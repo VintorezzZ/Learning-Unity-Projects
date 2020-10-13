@@ -662,8 +662,8 @@ MonoBehaviour:
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 2, z: -5}
   m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_YDamping: 0.2
+  m_ZDamping: 0.2
   m_AngularDampingMode: 0
   m_PitchDamping: 0
   m_YawDamping: 0
@@ -2400,6 +2400,46 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1391475010}
+    - target: {fileID: 892349197162580230, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Pause_Off
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350187802273868, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350187802273868, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350187802273868, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350187802273868, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1391475010}
+    - target: {fileID: 892350187802273868, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350187802273868, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Pause_On
+      objectReference: {fileID: 0}
+    - target: {fileID: 892350187802273868, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1004655396708000018, guid: 44cbf74193e240c4cab97070b967f6fc,
         type: 3}
       propertyPath: m_IsActive
@@ -2415,6 +2455,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1005581646630522424, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1005581647239941608, guid: 44cbf74193e240c4cab97070b967f6fc,
         type: 3}
       propertyPath: m_IsActive
@@ -2423,7 +2468,7 @@ PrefabInstance:
     - target: {fileID: 1005581648622774764, guid: 44cbf74193e240c4cab97070b967f6fc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1005581648684217588, guid: 44cbf74193e240c4cab97070b967f6fc,
         type: 3}
@@ -2443,7 +2488,7 @@ PrefabInstance:
     - target: {fileID: 1005581650651598340, guid: 44cbf74193e240c4cab97070b967f6fc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1006280392015979390, guid: 44cbf74193e240c4cab97070b967f6fc,
         type: 3}
@@ -2601,6 +2646,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1006280392037728116, guid: 44cbf74193e240c4cab97070b967f6fc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1006280392037743110, guid: 44cbf74193e240c4cab97070b967f6fc,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2994,6 +3044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PostProcessVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 8602503872347923074, guid: 811314fefd1cdfc4185226e01fd52af0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8602503872347923100, guid: 811314fefd1cdfc4185226e01fd52af0,
         type: 3}

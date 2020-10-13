@@ -116,6 +116,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
+    - TimelineProjectSettings
     - UnityEditor.Timeline.SequenceHierarchy
     - UnityEditor.Timeline.TimelineWindow
     UnityEditor.Graphs.dll:

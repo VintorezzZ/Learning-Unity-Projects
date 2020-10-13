@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        Application.targetFrameRate = 300;
         Instantiate(soundManager);
         SoundManager.instance.pauseMute = false;
         SoundManager.instance.MuteAllSounds();
