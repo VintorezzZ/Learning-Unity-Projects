@@ -1,0 +1,3718 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - Bullet
+    - Destroy
+    - FPScounter
+    - GameManager
+    - Health
+    - HealthPlayer
+    - Laser
+    - Machinegun
+    - RCC_AICarController
+    - RCC_AIWaypointsContainer
+    - RCC_Caliper
+    - RCC_Camera
+    - RCC_CarControllerV3
+    - RCC_ChangableWheels
+    - RCC_CharacterController
+    - RCC_Chassis
+    - RCC_CinematicCamera
+    - RCC_ColorPickerBySliders
+    - RCC_CustomizerExample
+    - RCC_DashboardColors
+    - RCC_DashboardInputs
+    - RCC_DashboardObjects
+    - RCC_Demo
+    - RCC_Exhaust
+    - RCC_FOVForCinematicCamera
+    - RCC_GroundMaterials
+    - RCC_HoodCamera
+    - RCC_InfoLabel
+    - RCC_Light
+    - RCC_LightEmission
+    - RCC_Mirror
+    - RCC_MobileButtons
+    - RCC_MobileUIDrag
+    - RCC_Records
+    - RCC_SceneManager
+    - RCC_Settings
+    - RCC_ShadowRotConst
+    - RCC_Skidmarks
+    - RCC_SkidmarksManager
+    - RCC_SuspensionArm
+    - RCC_TrailerAttachPoint
+    - RCC_UIController
+    - RCC_UIDashboardButton
+    - RCC_UIDashboardDisplay
+    - RCC_UIJoystick
+    - RCC_UISliderTextReader
+    - RCC_UISteeringWheelController
+    - RCC_Useless
+    - RCC_Vehicles
+    - RCC_WheelCamera
+    - RCC_WheelCollider
+    - SoundManager
+    - SpawnEnemies
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBasicMultiChannelPerlin
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineCollider
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineTransposer
+    - Cinemachine.CinemachineVirtualCamera
+    - Cinemachine.NoiseSettings
+    MoreMountains.Feedbacks.Cinemachine.dll:
+    - MoreMountains.FeedbacksForThirdParty.MMCinemachineCameraShaker
+    MoreMountains.Feedbacks.PostProcessing.dll:
+    - MoreMountains.FeedbacksForThirdParty.MMBloomShaker
+    - MoreMountains.FeedbacksForThirdParty.MMChromaticAberrationShaker
+    - MoreMountains.FeedbacksForThirdParty.MMColorGradingShaker
+    - MoreMountains.FeedbacksForThirdParty.MMFeedbackBloom
+    - MoreMountains.FeedbacksForThirdParty.MMFeedbackChromaticAberration
+    - MoreMountains.FeedbacksForThirdParty.MMFeedbackColorGrading
+    - MoreMountains.FeedbacksForThirdParty.MMFeedbackVignette
+    - MoreMountains.FeedbacksForThirdParty.MMVignetteShaker
+    MoreMountains.Feedbacks.dll:
+    - MoreMountains.Feedbacks.MMFeedbackCameraShake
+    - MoreMountains.Feedbacks.MMFeedbackFeedbacks
+    - MoreMountains.Feedbacks.MMFeedbacks
+    - MoreMountains.Feedbacks.MMFeedbacksShaker
+    MoreMountains.NiceVibrations.dll:
+    - MoreMountains.NiceVibrations.MMNVPath
+    MoreMountains.Tools.dll:
+    - MoreMountains.Tools.MMAchievementDisplayItem
+    - MoreMountains.Tools.MMDebugOnScreenConsole
+    - MoreMountains.Tools.MMProgressBar
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
+    - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineWindow
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/Main.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11898}
+    - Class: 114
+      Script: {instanceID: 11900}
+    - Class: 114
+      Script: {instanceID: 11902}
+    - Class: 114
+      Script: {instanceID: 11906}
+    - Class: 114
+      Script: {instanceID: 11910}
+    - Class: 114
+      Script: {instanceID: 11912}
+    - Class: 114
+      Script: {instanceID: 11916}
+    - Class: 114
+      Script: {instanceID: 11948}
+    - Class: 114
+      Script: {instanceID: 11988}
+    - Class: 114
+      Script: {instanceID: 12010}
+    - Class: 114
+      Script: {instanceID: 12072}
+    - Class: 114
+      Script: {instanceID: 12142}
+    - Class: 114
+      Script: {instanceID: 12164}
+    - Class: 114
+      Script: {instanceID: 12176}
+    - Class: 114
+      Script: {instanceID: 12186}
+    - Class: 114
+      Script: {instanceID: 12208}
+    - Class: 114
+      Script: {instanceID: 12270}
+    - Class: 114
+      Script: {instanceID: 12292}
+    - Class: 114
+      Script: {instanceID: 12300}
+    - Class: 114
+      Script: {instanceID: 12316}
+    - Class: 114
+      Script: {instanceID: 12320}
+    - Class: 114
+      Script: {instanceID: 12478}
+    - Class: 114
+      Script: {instanceID: 12584}
+    - Class: 114
+      Script: {instanceID: 12588}
+    - Class: 114
+      Script: {instanceID: 12638}
+    - Class: 114
+      Script: {instanceID: 12768}
+    - Class: 114
+      Script: {instanceID: 12782}
+    - Class: 114
+      Script: {instanceID: 12900}
+    - Class: 114
+      Script: {instanceID: 12930}
+    - Class: 114
+      Script: {instanceID: 12996}
+    - Class: 114
+      Script: {instanceID: 13112}
+    - Class: 114
+      Script: {instanceID: 13138}
+    - Class: 114
+      Script: {instanceID: 13154}
+    - Class: 114
+      Script: {instanceID: 13162}
+    - Class: 114
+      Script: {instanceID: 13236}
+    - Class: 114
+      Script: {instanceID: 13250}
+    - Class: 114
+      Script: {instanceID: 13276}
+    - Class: 114
+      Script: {instanceID: 13330}
+    - Class: 114
+      Script: {instanceID: 13346}
+    - Class: 114
+      Script: {instanceID: 13372}
+    - Class: 114
+      Script: {instanceID: 13408}
+    - Class: 114
+      Script: {instanceID: 13490}
+    - Class: 114
+      Script: {instanceID: 13496}
+    - Class: 114
+      Script: {instanceID: 13510}
+    - Class: 114
+      Script: {instanceID: 13536}
+    - Class: 114
+      Script: {instanceID: 13578}
+    - Class: 114
+      Script: {instanceID: 13592}
+    - Class: 114
+      Script: {instanceID: 13630}
+    - Class: 114
+      Script: {instanceID: 13724}
+    - Class: 114
+      Script: {instanceID: 13812}
+    - Class: 114
+      Script: {instanceID: 13938}
+    - Class: 114
+      Script: {instanceID: 13986}
+    - Class: 114
+      Script: {instanceID: 14096}
+    - Class: 114
+      Script: {instanceID: 14110}
+    - Class: 114
+      Script: {instanceID: 14212}
+    - Class: 114
+      Script: {instanceID: 14248}
+    - Class: 114
+      Script: {instanceID: 14344}
+    - Class: 114
+      Script: {instanceID: 14396}
+    - Class: 114
+      Script: {instanceID: 14414}
+    - Class: 114
+      Script: {instanceID: 14578}
+    - Class: 114
+      Script: {instanceID: 14592}
+    - Class: 114
+      Script: {instanceID: 14596}
+    - Class: 114
+      Script: {instanceID: 14690}
+    - Class: 114
+      Script: {instanceID: 14698}
+    - Class: 114
+      Script: {instanceID: 14768}
+    - Class: 114
+      Script: {instanceID: 14774}
+    - Class: 114
+      Script: {instanceID: 14800}
+    - Class: 114
+      Script: {instanceID: 15186}
+    - Class: 114
+      Script: {instanceID: 15210}
+    - Class: 114
+      Script: {instanceID: 15222}
+    - Class: 114
+      Script: {instanceID: 15270}
+    - Class: 114
+      Script: {instanceID: 15306}
+    - Class: 114
+      Script: {instanceID: 15338}
+    - Class: 114
+      Script: {instanceID: 15348}
+    - Class: 114
+      Script: {instanceID: 15428}
+    - Class: 114
+      Script: {instanceID: 15480}
+    - Class: 114
+      Script: {instanceID: 15508}
+    - Class: 114
+      Script: {instanceID: 15572}
+    - Class: 114
+      Script: {instanceID: 15582}
+    - Class: 114
+      Script: {instanceID: 15630}
+    - Class: 114
+      Script: {instanceID: 15632}
+    - Class: 114
+      Script: {instanceID: 15642}
+    - Class: 114
+      Script: {instanceID: 15682}
+    - Class: 114
+      Script: {instanceID: 15712}
+    - Class: 114
+      Script: {instanceID: 15716}
+    - Class: 114
+      Script: {instanceID: 15736}
+    - Class: 114
+      Script: {instanceID: 15758}
+    - Class: 114
+      Script: {instanceID: 15788}
+    - Class: 114
+      Script: {instanceID: 15790}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 119
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 121
+      Script: {instanceID: 0}
+    - Class: 123
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 146
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Scenes/Start.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11898}
+    - Class: 114
+      Script: {instanceID: 11900}
+    - Class: 114
+      Script: {instanceID: 11902}
+    - Class: 114
+      Script: {instanceID: 11904}
+    - Class: 114
+      Script: {instanceID: 11906}
+    - Class: 114
+      Script: {instanceID: 11910}
+    - Class: 114
+      Script: {instanceID: 11912}
+    - Class: 114
+      Script: {instanceID: 11916}
+    - Class: 114
+      Script: {instanceID: 11948}
+    - Class: 114
+      Script: {instanceID: 11988}
+    - Class: 114
+      Script: {instanceID: 12010}
+    - Class: 114
+      Script: {instanceID: 12072}
+    - Class: 114
+      Script: {instanceID: 12118}
+    - Class: 114
+      Script: {instanceID: 12134}
+    - Class: 114
+      Script: {instanceID: 12164}
+    - Class: 114
+      Script: {instanceID: 12176}
+    - Class: 114
+      Script: {instanceID: 12186}
+    - Class: 114
+      Script: {instanceID: 12270}
+    - Class: 114
+      Script: {instanceID: 12300}
+    - Class: 114
+      Script: {instanceID: 12316}
+    - Class: 114
+      Script: {instanceID: 12320}
+    - Class: 114
+      Script: {instanceID: 12392}
+    - Class: 114
+      Script: {instanceID: 12438}
+    - Class: 114
+      Script: {instanceID: 12478}
+    - Class: 114
+      Script: {instanceID: 12584}
+    - Class: 114
+      Script: {instanceID: 12638}
+    - Class: 114
+      Script: {instanceID: 12742}
+    - Class: 114
+      Script: {instanceID: 12884}
+    - Class: 114
+      Script: {instanceID: 12900}
+    - Class: 114
+      Script: {instanceID: 12930}
+    - Class: 114
+      Script: {instanceID: 12968}
+    - Class: 114
+      Script: {instanceID: 12996}
+    - Class: 114
+      Script: {instanceID: 13038}
+    - Class: 114
+      Script: {instanceID: 13112}
+    - Class: 114
+      Script: {instanceID: 13138}
+    - Class: 114
+      Script: {instanceID: 13154}
+    - Class: 114
+      Script: {instanceID: 13162}
+    - Class: 114
+      Script: {instanceID: 13182}
+    - Class: 114
+      Script: {instanceID: 13236}
+    - Class: 114
+      Script: {instanceID: 13276}
+    - Class: 114
+      Script: {instanceID: 13344}
+    - Class: 114
+      Script: {instanceID: 13346}
+    - Class: 114
+      Script: {instanceID: 13372}
+    - Class: 114
+      Script: {instanceID: 13490}
+    - Class: 114
+      Script: {instanceID: 13496}
+    - Class: 114
+      Script: {instanceID: 13510}
+    - Class: 114
+      Script: {instanceID: 13578}
+    - Class: 114
+      Script: {instanceID: 13592}
+    - Class: 114
+      Script: {instanceID: 13724}
+    - Class: 114
+      Script: {instanceID: 13812}
+    - Class: 114
+      Script: {instanceID: 13942}
+    - Class: 114
+      Script: {instanceID: 13986}
+    - Class: 114
+      Script: {instanceID: 14110}
+    - Class: 114
+      Script: {instanceID: 14212}
+    - Class: 114
+      Script: {instanceID: 14228}
+    - Class: 114
+      Script: {instanceID: 14344}
+    - Class: 114
+      Script: {instanceID: 14396}
+    - Class: 114
+      Script: {instanceID: 14414}
+    - Class: 114
+      Script: {instanceID: 14470}
+    - Class: 114
+      Script: {instanceID: 14492}
+    - Class: 114
+      Script: {instanceID: 14512}
+    - Class: 114
+      Script: {instanceID: 14578}
+    - Class: 114
+      Script: {instanceID: 14592}
+    - Class: 114
+      Script: {instanceID: 14596}
+    - Class: 114
+      Script: {instanceID: 14690}
+    - Class: 114
+      Script: {instanceID: 14768}
+    - Class: 114
+      Script: {instanceID: 14774}
+    - Class: 114
+      Script: {instanceID: 15010}
+    - Class: 114
+      Script: {instanceID: 15186}
+    - Class: 114
+      Script: {instanceID: 15210}
+    - Class: 114
+      Script: {instanceID: 15222}
+    - Class: 114
+      Script: {instanceID: 15270}
+    - Class: 114
+      Script: {instanceID: 15306}
+    - Class: 114
+      Script: {instanceID: 15338}
+    - Class: 114
+      Script: {instanceID: 15348}
+    - Class: 114
+      Script: {instanceID: 15364}
+    - Class: 114
+      Script: {instanceID: 15428}
+    - Class: 114
+      Script: {instanceID: 15452}
+    - Class: 114
+      Script: {instanceID: 15508}
+    - Class: 114
+      Script: {instanceID: 15572}
+    - Class: 114
+      Script: {instanceID: 15582}
+    - Class: 114
+      Script: {instanceID: 15630}
+    - Class: 114
+      Script: {instanceID: 15642}
+    - Class: 114
+      Script: {instanceID: 15656}
+    - Class: 114
+      Script: {instanceID: 15682}
+    - Class: 114
+      Script: {instanceID: 15712}
+    - Class: 114
+      Script: {instanceID: 15716}
+    - Class: 114
+      Script: {instanceID: 15736}
+    - Class: 114
+      Script: {instanceID: 15758}
+    - Class: 114
+      Script: {instanceID: 15788}
+    - Class: 114
+      Script: {instanceID: 15790}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 119
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 121
+      Script: {instanceID: 0}
+    - Class: 123
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 146
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f087c23fbfa15475a0d110af46fb0496
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 0c05f2bfb402def3f0a85a62a2323c7f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 69f635c903380c53f7fb8cc445d06811
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: ShaderController
+  - hash:
+      serializedVersion: 2
+      Hash: 23d669c8bf2983ca4a3df160658318a6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: ea420a9b0dfa5a1a85fedc893975a5d3
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemChoices
+  - hash:
+      serializedVersion: 2
+      Hash: 791adfd8009bae8e2e004d53a359f1b1
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTimedDestruction
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 1722fe6b25bfe9d03cfae65e76180499
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_UISteeringWheelController
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4298152c7490141086c39d1836a5a43a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTime
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_TrailerAttachPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 4a53e894992b131b3846a6a74c619f49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_AIO
+  - hash:
+      serializedVersion: 2
+      Hash: f3b5efd5dbe7f076104ebab69a458c7d
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 2a338427b87283bf2ba9d6e400ed7f02
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMGyroscope
+  - hash:
+      serializedVersion: 2
+      Hash: a10992f7d1193e395b3020d79655ea1a
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMSpriteReplace
+  - hash:
+      serializedVersion: 2
+      Hash: 7cd20f3a7b0d000d5a3d95a1aa80db0b
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenu
+  - hash:
+      serializedVersion: 2
+      Hash: d1b6e460d55b31f85f0046a4ae1e8785
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackGlobalPPVolumeAutoBlend
+  - hash:
+      serializedVersion: 2
+      Hash: 8aeec5fe62ccf112353a95f2ac9ee262
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_ChangableWheels
+  - hash:
+      serializedVersion: 2
+      Hash: 31ea450845eec3699ab5677e336bfa8d
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackBroadcast
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef24840233820c61e2e34d79bbcc5e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: DemoBall
+  - hash:
+      serializedVersion: 2
+      Hash: 00c7f5148d8356768f807515c98606e8
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioFilterDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: DemoGhost
+  - hash:
+      serializedVersion: 2
+      Hash: 8ca36eb475855b0ac9b1366da79a7212
+    assemblyName: MoreMountains.NiceVibrations.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMNVPath
+  - hash:
+      serializedVersion: 2
+      Hash: b75a564ef941dbde12c87ae903260508
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTilemapShadow
+  - hash:
+      serializedVersion: 2
+      Hash: e9ee84451ddd9e9be59fe71f28b6178d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Caliper
+  - hash:
+      serializedVersion: 2
+      Hash: a2113831d3323f931007e1b3812dc814
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 1418b7fca09e4c81b5757dd31594b666
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: d227987243593b32ae57394d06018643
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 0f314fc48e3906969410e9db0c371251
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackScale
+  - hash:
+      serializedVersion: 2
+      Hash: 9f2568c4f9feb6659956cb3638ee496c
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRigidbodyCenterOfMass
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Chassis
+  - hash:
+      serializedVersion: 2
+      Hash: ec725396b1e2278b5fa3c1c9b93fdab0
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMCameraAspectRatio
+  - hash:
+      serializedVersion: 2
+      Hash: 33f94da87ff35c0be05a9a2de8a02bc4
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackCameraShake
+  - hash:
+      serializedVersion: 2
+      Hash: 7844111951774a24ab3c18ef886fca42
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: AIBrain
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d61e2ae9bf04060d18241e8853db48af
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMBillboard
+  - hash:
+      serializedVersion: 2
+      Hash: f11b61e100d9b6974425e7c09f288f7a
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMTouchButton
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: af56f77a30c1a2da1680c736a6f5c6e8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: bfa0dc3eb5342e93154b84f135e2c80c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_CarControllerV3
+  - hash:
+      serializedVersion: 2
+      Hash: c57901adcd7b48f0af06fc1c503372f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_TruckTrailer
+  - hash:
+      serializedVersion: 2
+      Hash: 8fb95f2da42f6b8ec9feefd537c21d89
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackVignette
+  - hash:
+      serializedVersion: 2
+      Hash: fd8b23ad3c9e81bc85b197495bc510ac
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 2cc47dbc20354d632b521187eb5596b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 66a76d307baa3e8eb65d877c961f1b43
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: a4334e4cbf0c49f69a77b750311461de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_ColorPickerBySliders
+  - hash:
+      serializedVersion: 2
+      Hash: 10450110159f3d41bd0ecb207eedbc84
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: d8439c451a97403bfec66999e93e2268
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: ContinuousHapticsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 319961f0e97b12b5eb957ee70d6e1090
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraOrthographicSizeShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 32fce7b97c39bff4b4f6c0f53f7e6bf1
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 2b6c5e1cd6b9b27530a78bf5bc509c5c
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: b37297e69994bf3ff0a66989ea5461a1
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRadioSignalAudioAnalyzer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: ad69f91b55b4ae7fbe7b5ae4fb5adf9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Skidmarks
+  - hash:
+      serializedVersion: 2
+      Hash: d89eb5949ee2f2872c5849427b488821
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackFade
+  - hash:
+      serializedVersion: 2
+      Hash: 5f206dd3b0d6b103c9456019be49d644
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 2b158817c2ae2224b5c2851465f46b32
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioFilterHighPass
+  - hash:
+      serializedVersion: 2
+      Hash: 804a288478a42f65c12c989c19fd8819
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_FixedCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMGetFocusOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: eff8203ff77ebab5d73ac8baa40b45b9
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMInput
+  - hash:
+      serializedVersion: 2
+      Hash: f96eda2eb7dac1c38740a255766d65fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_SkidmarksManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_MobileUIDrag
+  - hash:
+      serializedVersion: 2
+      Hash: 49373f498f8b556728dad21083e07b73
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: WobbleDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 6dd3dc11942e98c0a809c81f95fc960c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 27fd3a4734587e40447eb6268b4ddf52
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTouchAxis
+  - hash:
+      serializedVersion: 2
+      Hash: c091e0b571bfb39019ff5d3dfab08629
+    assemblyName: MoreMountains.Tools.Feedbacks.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAutoRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 2e7d5c188356e038b294f27ad318822a
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackFlash
+  - hash:
+      serializedVersion: 2
+      Hash: 7c57aeb07ca27fb7f377ba9bbacc55b0
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackLooper
+  - hash:
+      serializedVersion: 2
+      Hash: 0f9627882b9e561dc9fe6199f82bb02a
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTestClass
+  - hash:
+      serializedVersion: 2
+      Hash: 5443ef26d1d5c36aecb7989c65dfb900
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: b5eb08b578a2f2d80bb106cbe65ab501
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 95ab34eaee0edbfbaf594fadfc753be4
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRaycastTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 32b8629cd273bc8df8daaf8f70da09f2
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 7a3037a0f8b0089361845878ea23b01f
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: ef3106b76199a6412628141ce1b71489
+    assemblyName: MoreMountains.NiceVibrations.Haptics.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMNVAndroidWaveFormAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 5ea994d8ed8b8b57beabc6fe42cac992
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_AIWaypointsContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMImage
+  - hash:
+      serializedVersion: 2
+      Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_CreateAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7621ab822741c6bd1a30baff84e4d
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPlatformActivation
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 0fe67818b35bf58ebcca7fa730bbdc4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarComponents
+  - hash:
+      serializedVersion: 2
+      Hash: a6a9ba59c17dfa847846dd3fc142efc2
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemButton
+  - hash:
+      serializedVersion: 2
+      Hash: 99ea2ec303438d9571b7053edfa0738d
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMObservableTestObserverAutoSleep
+  - hash:
+      serializedVersion: 2
+      Hash: a597e432a96ede909eb4fac8dee27d3e
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPoolableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 790e88a3f79a7750992b886e4cdf66e4
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackSound
+  - hash:
+      serializedVersion: 2
+      Hash: c8793981b6f195ae924b3dfe4ce78a74
+    assemblyName: MoreMountains.NiceVibrations.Haptics.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMNVRumbleWaveFormAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 50144b95ce1d4d0ca407b2a0773e8432
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMFPSUnlock
+  - hash:
+      serializedVersion: 2
+      Hash: 3b82ad0f256d9fa533c7ec731ec014f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_XRToggle
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: b8a190bdd1bff5280f5d5e90cd80983a
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSimpleObjectPooler
+  - hash:
+      serializedVersion: 2
+      Hash: 7c1068551b11dbf0dc3d65c9c9867ca9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_GroundMaterials
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 76da655bfc0b91822ed86076d69d8057
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: f963314b36d2d12b4a52041bd2b00367
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackParticles
+  - hash:
+      serializedVersion: 2
+      Hash: 93450bb8abadd296d825ae68b38d1173
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_DashboardObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 62c851e7eaca31a338d1e2b412852f8e
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineClippingPlanesShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 6c84e9c209b7a15e4d745461746ebc91
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMLineRendererDriver
+  - hash:
+      serializedVersion: 2
+      Hash: f7a04848083d53d1cc7d9a75f1a4478b
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: WobbleButton
+  - hash:
+      serializedVersion: 2
+      Hash: 4446d8c9664a4c60da4f6f6225e7c1ee
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTransformRandomizer
+  - hash:
+      serializedVersion: 2
+      Hash: 0582ac6c02a0236581afebd91732add4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_APIExample
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 842a53f26c159169d1fd88e4a2afc123
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackHoldingPause
+  - hash:
+      serializedVersion: 2
+      Hash: 2d106c4970b21121a1054c33f646bf21
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugOnScreenConsole
+  - hash:
+      serializedVersion: 2
+      Hash: e71c4735e9ec141fa20d331ad79bf795
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMStopMotionAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: ae20da6493a48ec6a8af7899dcb31507
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: 99caf4f391c5c84ac057dd787fa6be29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Light
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 1582b6dced5cb2993239f5f6ea3fcf15
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMWiggle
+  - hash:
+      serializedVersion: 2
+      Hash: ccb1d54ccb2cc295fd768dd38724634c
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPlotterGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC
+  - hash:
+      serializedVersion: 2
+      Hash: 1982ba27e6eeb5786b52567f8f5b41a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Camera
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 20307e5cf3ae0a829ee0557ec5cd07e0
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMHealthBar
+  - hash:
+      serializedVersion: 2
+      Hash: 0bcc1c23e70eab6bb5ec7e5f89a0095d
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2f4ff55096a0d8e697acdee36a50d4f8
+    assemblyName: MoreMountains.NiceVibrations.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMVibrationManagerTester
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSceneViewIcon
+  - hash:
+      serializedVersion: 2
+      Hash: 760a9905c8d60ad15cf930546058f41e
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMChangeFogColor
+  - hash:
+      serializedVersion: 2
+      Hash: 89d1160cac5ba600a3918677d3790af2
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 52ea8b935b1cbe3dac520a6716a03595
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: cc0486d20f87b48406c2f756641f7027
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRandomInstantiator
+  - hash:
+      serializedVersion: 2
+      Hash: 5ef4da075e301c27f457594ed8a147b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: DemoButton
+  - hash:
+      serializedVersion: 2
+      Hash: ad52329d7a9377f123ed71c6d05f9e11
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAchievementDisplayItem
+  - hash:
+      serializedVersion: 2
+      Hash: b487ffa4db51554ee2e1dbe99705aa02
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackInstantiateObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdjustTimeScale
+  - hash:
+      serializedVersion: 2
+      Hash: 1df32dc9fdd44c58225a4ea14f4b0d3b
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMOpenURL
+  - hash:
+      serializedVersion: 2
+      Hash: 1ad815a3fde56c9c0673f813b598e864
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTabContents
+  - hash:
+      serializedVersion: 2
+      Hash: 65e6a409091b0c5be3ca3a1cc500d001
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSceneRestarter
+  - hash:
+      serializedVersion: 2
+      Hash: 31d84ea85adf15383dca30fa83a6f922
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackBlink
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 6af0d850efaf914914c0876235c225d6
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMObjectBounds
+  - hash:
+      serializedVersion: 2
+      Hash: ee362e6da30d5578298857982c9eceba
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMScreenshot
+  - hash:
+      serializedVersion: 2
+      Hash: 379f4a764cb25430bccc9cce2eda2d3f
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: NiceVibrationsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7e81f15004cdbb53bb4c429fa0daf430
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_CameraCarSelection
+  - hash:
+      serializedVersion: 2
+      Hash: c6f896f39c4ef711e4297feec859bf1c
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackCameraOrthographicSize
+  - hash:
+      serializedVersion: 2
+      Hash: 9087adc2b95a60287e618d1b1b4ff55f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_LightEmission
+  - hash:
+      serializedVersion: 2
+      Hash: ef8a8155db1ea23fb2a0cee2bf4924e6
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPlotterAxis
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_WheelCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8181bd6ad232fdc3f6d53b27fa10a34f
+    assemblyName: MoreMountains.Tools.Cinemachine.dll
+    namespaceName: MoreMountains.Tools
+    className: MMGyroParallax
+  - hash:
+      serializedVersion: 2
+      Hash: 6850e4d43ea5b5f96bf0bfa1ddaf5fa6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_UIDashboardButton
+  - hash:
+      serializedVersion: 2
+      Hash: 9ccb6cdf632b6b64e80c49c15ceba063
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSwipeZone
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 853e1509d4bc28ecc53d86a7633cc74f
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 8d45f3d2842c46037a92296d0b004f7e
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMFPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 5cc439bf63c0539d39588e69465ac2ab
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 611bc970ee9dc090779a3fac6a18fac6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 86f2b29f413a52e43fbd6ab3f44d240c
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackFlicker
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d22e6008f00b6b8faf219be269a573e2
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMToggleActive
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 2ba78a93661ea2d9fe59ea3e49af8334
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_UIDashboardDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 6aa5e36e7f2107782b2f81a66fde1565
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackBloom
+  - hash:
+      serializedVersion: 2
+      Hash: 004191616198bbde30cce27c4d7b108d
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterLowPassShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 0e39835fde252f7b5d8396854c9a0f0e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_CustomizerExample
+  - hash:
+      serializedVersion: 2
+      Hash: 99ea2ec303438d9571b7053edfa0738d
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMObservableTestObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 3454c287345d731a5dd8527326efb6c7
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMStayInPlace
+  - hash:
+      serializedVersion: 2
+      Hash: 504a1803e94e8670e69475daa1e61679
+    assemblyName: MoreMountains.Feedbacks.NiceVibrations.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 6eaf3d058d806ecc0bc8f2b94a18a3f4
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugTouchDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 37de53a49708b087da4050fc1ca7a6ee
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 23a1a9c857f3afc25e35caa40807f5fa
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackFeedbacks
+  - hash:
+      serializedVersion: 2
+      Hash: d52ef50935acde091817dbf0febd7242
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: V2DemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: bc41397ac137eed2f013428fbf7218ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_FOVForCinematicCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 66e250883429e06f2484bb18fbca06db
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuCheckboxEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6d4c4520f676cbccbf6886a5e085f10f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMOffsetAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 31485f05a6ff54b634d2d8c4ced9b086
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_UIController
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa91c9379b0532daa072d20db8d90f5
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSpriteRendererShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 5e8df1555920e2422e34e8c36500c0c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_AICarController
+  - hash:
+      serializedVersion: 2
+      Hash: c47516e47a78321b5d776831e3672ecb
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: TransformController
+  - hash:
+      serializedVersion: 2
+      Hash: 0db44d07ac40746e0400abf65e279ef9
+    assemblyName: MoreMountains.Tools.Feedbacks.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAchievementDisplayer
+  - hash:
+      serializedVersion: 2
+      Hash: 629606a35f65d80d81db7785075b4762
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: SoundSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: b23aa27490d13797fba4e0127c57fbf7
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMUIShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 01086794d0ca34b5dd93822a49dcf88b
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAnimatorMirror
+  - hash:
+      serializedVersion: 2
+      Hash: 62c851e7eaca31a338d1e2b412852f8e
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraClippingPlanesShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 6281551e3127504c8d88ba2ad08f1dfe
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackCameraZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 2e92a9ce39b0a96736d5c34b4a9676e5
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: BallPusher
+  - hash:
+      serializedVersion: 2
+      Hash: e38632644823a975e1d25cb2f74a168a
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioSourcePitch
+  - hash:
+      serializedVersion: 2
+      Hash: 64a2c6290be43dffb9b123cd81804930
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: BallDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8919b2e25b1a556fd1dc067c280b6dac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_UIJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 701e4969e763375cb7919da4ee167ffa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2ce2187bbae6f802011f568630bd3d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: a94804e136b039c92b65147a3399e08e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Laser
+  - hash:
+      serializedVersion: 2
+      Hash: 9baceb0ed63a5547af4100fc35eebff7
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPath
+  - hash:
+      serializedVersion: 2
+      Hash: 7dcb3452799b07370870974e9f748689
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: af5d64642e2dbb48e15ca56c39405466
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackCinemachineTransition
+  - hash:
+      serializedVersion: 2
+      Hash: e78709e690dc77916f3252ffe12b9d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: 9e71a6701545edf41435c7a998025788
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAnimationCurveGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMSignal
+  - hash:
+      serializedVersion: 2
+      Hash: eca9cf3d5c80f0541eeb35339a171eb1
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMBloomShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksInspectorColors
+  - hash:
+      serializedVersion: 2
+      Hash: 3364284b56b66be3201d7346261e7b2c
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTouchDynamicJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 34920d99df69fd5faf8fdfc95917bb38
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMProgressBarDemoAuto
+  - hash:
+      serializedVersion: 2
+      Hash: 608dbec8a4e9e9618fd66eeb24f4c570
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Exhaust
+  - hash:
+      serializedVersion: 2
+      Hash: 5b907ce9870e3f8430053a84fe5076d8
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackShaderController
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5c97e1cd16f384b11a62c298e01ee8ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_AIBrakeZone
+  - hash:
+      serializedVersion: 2
+      Hash: bd543bad7f9f6262f10595aadb130d22
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 2f41c2e24ecb237c3256a30079699be5
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourceSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: ef1bf0d5126121249dbfd6b78fc5ca30
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMObjectPool
+  - hash:
+      serializedVersion: 2
+      Hash: 2ba7011db170e2177a8d9bd50adfe556
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: VersionNumber
+  - hash:
+      serializedVersion: 2
+      Hash: b87fd7f9dd4237a8ad9a61185f68fafa
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTouchJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 5ec33cf15d2ecec580276466a3408ec6
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTouchButton
+  - hash:
+      serializedVersion: 2
+      Hash: ed4b2f05082b71f66d5d9d5fcee1d0d0
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRadialProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 15882a52798c275361cd0a3ada984ec5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 463ea6ef6b2ccd6f9661921119b645ac
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRadioSignalGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 96d28ab0a838a0f85ed93b7a502244b0
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackWiggle
+  - hash:
+      serializedVersion: 2
+      Hash: 1160afc9d7273371e4997a3029ef3ad8
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMActivationOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: f2a8ccf1b31bc04d42eb40022aa3263e
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackCanvasGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: a4e40cd59743944391a1e9b0b0137b28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_PoliceSiren
+  - hash:
+      serializedVersion: 2
+      Hash: 498da3fe40fc83ad3a4de930efd7d267
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProximityActivate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTween
+  - hash:
+      serializedVersion: 2
+      Hash: 204ea02909ea3f738dafe3ff633d2a93
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 04f6799244f8e80ec83e0e405b042eb6
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMBezierLineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 507352c491ad43c8a7368ea79a3dcb2e
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackTimescaleModifier
+  - hash:
+      serializedVersion: 2
+      Hash: e00139d98f3179bba247a31b4ac39add
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourcePitchShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: fb8de24966011fa072175f7d0c5bf89f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPlaylist
+  - hash:
+      serializedVersion: 2
+      Hash: 495332395c6f5bf5818e1b63819ae05e
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourceStereoPanShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 8b6a48bd9544a0c307476b1e5dc87b7d
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugController
+  - hash:
+      serializedVersion: 2
+      Hash: ba39775682754d026095c8cf9263857c
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMFaderRound
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ProGrids.dll
+    namespaceName: UnityEngine.ProGrids
+    className: IgnoreSnap
+  - hash:
+      serializedVersion: 2
+      Hash: 694d20920c0e41f567e119f7159a3644
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: c93920c073672684177858a018108320
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSaveLoadTester
+  - hash:
+      serializedVersion: 2
+      Hash: e1b5be58f07f33bb5385fd8495b3b2d6
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTouchRepositionableJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 4ce3960d935a327de754514cb7832f94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnEnemies
+  - hash:
+      serializedVersion: 2
+      Hash: 447ea3ab738a2ace6d6ee8ab6a98243b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_CinematicCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMConsole
+  - hash:
+      serializedVersion: 2
+      Hash: 498d55e3ee02ea665360aaf18c3ce47e
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPreventPassingThrough
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: c61244846b18d76fd5bf842e63d93e0e
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMChromaticAberrationShaker
+  - hash:
+      serializedVersion: 2
+      Hash: fb490e575a119a0ea496c314fc4bdc2b
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTabManager
+  - hash:
+      serializedVersion: 2
+      Hash: aae588ebb08895794aed7600202f8288
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPostProcessingMovingFilter
+  - hash:
+      serializedVersion: 2
+      Hash: f8993f4a19947bc528385a42e8f6e5e2
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: SelectionBase
+  - hash:
+      serializedVersion: 2
+      Hash: d29705b3ffee00cc3405b6f631fa0fa6
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMMultipleObjectPooler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTrailRendererSortingLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 6d12be8d04084d111b117f3e59a966a5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_FuelStation
+  - hash:
+      serializedVersion: 2
+      Hash: 59d586fea9e734e7ab4fc8dcca1b217d
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMKnob
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 07e1b6dcf37911fc774b48d0f7bc709a
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMLightShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 56df1fa7cea034df9863fe5a24200a32
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7828b805a1af867a597a003d3aa96302
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Health
+  - hash:
+      serializedVersion: 2
+      Hash: 3b2ea5b532966f08fe90980ab6a9a5ec
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuRadioButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Destroy
+  - hash:
+      serializedVersion: 2
+      Hash: cacd9fd4020083227fd881c815803705
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: FloatController
+  - hash:
+      serializedVersion: 2
+      Hash: b00d3880a6087b8cddeeb8482d3999ae
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioFilterReverb
+  - hash:
+      serializedVersion: 2
+      Hash: 7670299bce3a5758dab5fd44fe9697b0
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPlotter
+  - hash:
+      serializedVersion: 2
+      Hash: 3245cddb03f09f5ae4284d7cd2203160
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAutoDestroyParticleSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 4a872bb09d98b220ac9aeb937ba93331
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMCountdown
+  - hash:
+      serializedVersion: 2
+      Hash: 650e448322fd4afa3b49b8bf25f21756
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMGlobalPostProcessingVolumeAutoBlend
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksHelpers
+  - hash:
+      serializedVersion: 2
+      Hash: 1360d95e7283a0e678a03e0805dff906
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackPPMovingFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 7c88f794378efb023b4dfbfd60288abf
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMOrbitalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 2a917f71517ab777017208da923d7985
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTriggerAndCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 829740e551bf1ea6d1a5a58d5bc5817a
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAnimationModifier
+  - hash:
+      serializedVersion: 2
+      Hash: c7fc447632fdf5feff363a928333a8fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 4f98125917b26f8157a4a673cfc7f4bc
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMConeOfVision2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 55bd49ff77647aa10640d66e906f8f2c
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPathMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 7c792393fb82488bd20139dcc5ba26d8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 853e1509d4bc28ecc53d86a7633cc74f
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachinePriorityListener
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: c7dc0c1401c8ed7a8e9dc604232c24f2
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: bb1f0eabf586c59f439d232ff8a83b3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleCharacterMotor
+  - hash:
+      serializedVersion: 2
+      Hash: bbc3667afb635feff933c52dd83bebac
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAnimationParameter
+  - hash:
+      serializedVersion: 2
+      Hash: a5a305f9f2e376f031db3c53c4866042
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMParentingOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: d123e6260410e1d1751d486e12cb730f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMFader
+  - hash:
+      serializedVersion: 2
+      Hash: e6d75f1a9bc0c6f7085df0baa077e688
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_HoodCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 68720e82621f002dff4245f4bc9ca34d
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: TransientHapticsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 5db073c875fcfd5cb837838d271d6d5f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemTitle
+  - hash:
+      serializedVersion: 2
+      Hash: 4a639215e29265dd99e4fed19e3fa9f4
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 17ff0ae7c295eb24f411329dc69ff12d
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: PresetDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_GetBounds
+  - hash:
+      serializedVersion: 2
+      Hash: db5a725e0e2e7fa817c3292adafb6269
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Recorder
+  - hash:
+      serializedVersion: 2
+      Hash: a0a85eedc6cf7bbf4ddd3ccbf1313c6c
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: PanningTexture
+  - hash:
+      serializedVersion: 2
+      Hash: ef101ce12a6cdf7eb096807008bf2c6e
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterEchoShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 62b6c36d3678126cd7618d515a1073b4
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMMiniPoolableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 170db7b9fc4519c3b0aa500c3a9263b4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_WheelCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 8f2f40b5ab82d54e9c5d66f7e9f4392a
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioFilterEcho
+  - hash:
+      serializedVersion: 2
+      Hash: b89426739659556be22317e259ea4851
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFlash
+  - hash:
+      serializedVersion: 2
+      Hash: f7bb6096199e0cf058d5d69878184cf4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: b639d97cb780d0d99a2bfb3ad1935732
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 33bb328291296d31ac331c84021c82bb
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPreventPassingThrough2D
+  - hash:
+      serializedVersion: 2
+      Hash: bee13f8592d9b041491c09d14d2a4202
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: DemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3a7452db6df6ce8a526c558bd394a674
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: PresetDemoRotator
+  - hash:
+      serializedVersion: 2
+      Hash: 536ab00b58527c81aec727bc181d6c51
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: LightController
+  - hash:
+      serializedVersion: 2
+      Hash: 42001beb4a35ecf4151869f9c43ac1b5
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSequence
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 344a8c2e106a0a4e098e91a52e0af063
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 33bb328291296d31ac331c84021c82bb
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPreventPassingThrough3D
+  - hash:
+      serializedVersion: 2
+      Hash: eeb356fa33eec10332ebc7e468fecb95
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: c61244846b18d76fd5bf842e63d93e0e
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMLensDistortionShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: df21ffd1864551a3e43410f28754a73e
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7581b3da60006387b298abc51d0b20bf
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSquashAndStretch
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 4426e83bcbd544040c611d75cbf20f6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 78a5bbdbddb767173b53c6dc0b62f56f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRagdoller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMVisibleParticle
+  - hash:
+      serializedVersion: 2
+      Hash: 28b46f6e1938d3c5ceb7bc44c30ca1a0
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackLight
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3d6222ff533d213aab144eb854a53b
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 05eec74aea8346108bce2334410e58bd
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackFreezeFrame
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRagdollerIgnore
+  - hash:
+      serializedVersion: 2
+      Hash: b8c48c9a92336abb8b025d4d9e7fd7e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Machinegun
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachinePriorityBrainListener
+  - hash:
+      serializedVersion: 2
+      Hash: c8f1a224e0a43adc56c91864de822dd3
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 73e0307ccf5fac2e6f41bbf403abae38
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_SceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: cb2ffd4293b7e7ed188fe7603cc7b975
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemCheckbox
+  - hash:
+      serializedVersion: 2
+      Hash: 3e233178d42a5033d10ca335fba3ac00
+    assemblyName: MoreMountains.Tools.Feedbacks.dll
+    namespaceName: MoreMountains.Tools
+    className: MMGhostCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 490b6f2eac51f38f52c907a0de66ec7a
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTilemapBoolean
+  - hash:
+      serializedVersion: 2
+      Hash: 36808e0bceda2a44a651d2c754474786
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnEffect
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8c03893c703425207b78bd314b48a5
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRadioReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMBoundsExtensions
+  - hash:
+      serializedVersion: 2
+      Hash: 612e55748e1b2d5462cf3818f70dfe0a
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: 3f65e49f51e069cc2ab51e374c5757bd
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: PowerBarElement
+  - hash:
+      serializedVersion: 2
+      Hash: ef6644dfdbb18b73490fd18a8b0b38b2
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMInputSequenceRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: BallDemoWall
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPScounter
+  - hash:
+      serializedVersion: 2
+      Hash: bae2cd4c3fad1ed271d7cfc9f746d33c
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineCameraShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 8860633d29a22ff64e02e18da3716cdf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityTemplateProjects
+    className: SimpleCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 2afc487f389667b13afc145482febfb3
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: HapticCurve
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSelectionBase
+  - hash:
+      serializedVersion: 2
+      Hash: 927080e56c51e9e97a1d741574d8c374
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: MMProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMObservableTestSubject
+  - hash:
+      serializedVersion: 2
+      Hash: 550b6c004f6c7510f5ce371b6a72e4b5
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMCameraFieldOfViewShaker
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2faf33228cdd56d9efd208af7a3d2fcb
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAchievementList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMArray
+  - hash:
+      serializedVersion: 2
+      Hash: a82944a136ddebb612d4774f13cd43c2
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMColorGradingShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_ShadowRotConst
+  - hash:
+      serializedVersion: 2
+      Hash: 2b0dca30abc78c7b5d6052ab279ce5e5
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMApplicationPlatformActivation
+  - hash:
+      serializedVersion: 2
+      Hash: 6225eb0973ab0af667bc5f9d1b1b18de
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: bd50beb95120324d8c4e8386692b6e82
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 58e68364412c67eae2bdb4954be2dcc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Readme
+  - hash:
+      serializedVersion: 2
+      Hash: 66a1a1f311ae2e6e107ac94341e6d8ee
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackParticlesInstantiation
+  - hash:
+      serializedVersion: 2
+      Hash: 23066ceca838af0cf02e00e3cf5155c1
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: ab39682cc284aa1c151bead38ea11135
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: RegularPresetsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: cb44e249c453249456bf8dba0300c8b7
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMMiniObjectPooler
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1606faab205f50cc64aa73b2a01c98
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRadioBroadcaster
+  - hash:
+      serializedVersion: 2
+      Hash: 70a214627089f921e542d06da594ec75
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMDepthOfFieldShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a1f2d3b80b2824e018a0678a90ecdc4a
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuDebugTab
+  - hash:
+      serializedVersion: 2
+      Hash: 53bbf80675dbfc120d15e3fb7f6c8309
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAspectRatioSafeZones
+  - hash:
+      serializedVersion: 2
+      Hash: e7f7e3e3db604ad455909416c0c60cfa
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackDepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuCommands
+  - hash:
+      serializedVersion: 2
+      Hash: e05145a093e0352415fbc59864cbb0f9
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioSourceVolume
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cc8c1d2dbf6c3eae67bb95b6e086ee1b
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMSliderStep
+  - hash:
+      serializedVersion: 2
+      Hash: c203c961db4c59260d2c3dae9b93cbee
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 8d45f3d2842c46037a92296d0b004f7e
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMFPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: e48c13d402fa797278e2c7077a18581a
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 13022a11cb3efaef65251c1d79a9a3be
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterDistortionShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5a130d251b6157866c909d174fd279
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMBlink
+  - hash:
+      serializedVersion: 2
+      Hash: 68acc1aaba161e994f054a225990779b
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: BallTouchZone
+  - hash:
+      serializedVersion: 2
+      Hash: ce34faf4c9534da944016518f2a65ad8
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackRadioSignal
+  - hash:
+      serializedVersion: 2
+      Hash: f11f4da9a4ed797d96f956ef269d8e83
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuSliderEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: d39e72ddd05501c3b6019f0a9ed8d7c7
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: Pagination
+  - hash:
+      serializedVersion: 2
+      Hash: ffb2cc8bf3a549eb53c199541c1fb00b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_AIBrakeZonesContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 82f35ecdf9e5911d487cf177e95ddf55
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMSoundSequencer
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: c46f11aef450a19e4b06f4d414f29995
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 6b8193b93b20e9e08e1fb3055fe05fdd
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMShaker
+  - hash:
+      serializedVersion: 2
+      Hash: f07765c2985d8b8eaace7e92eb2878b0
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackFloatController
+  - hash:
+      serializedVersion: 2
+      Hash: 5fb59a348317952b5b63aff33853bbb6
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterHighPassShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: da17867f15b697e3054173945a23b5fb
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPlaylistRemote
+  - hash:
+      serializedVersion: 2
+      Hash: fcb35dfdf3be3289a131a9c0f366f9d0
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioFilterLowPass
+  - hash:
+      serializedVersion: 2
+      Hash: 69f5208198ce5ff74649c6e85feecb84
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMCursorVisible
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Customization
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Mirror
+  - hash:
+      serializedVersion: 2
+      Hash: c566d5ab8f0fa7c9ab98177cdff9df7b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_CarSelectionExample
+  - hash:
+      serializedVersion: 2
+      Hash: 0cf7a82312f098b014b09804e652dab2
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMAutoFocus
+  - hash:
+      serializedVersion: 2
+      Hash: 29e56d430d0bc28500a77fa6e364f08d
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemValue
+  - hash:
+      serializedVersion: 2
+      Hash: 81f19979836caaecaea0c0b849ae8290
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_CharacterController
+  - hash:
+      serializedVersion: 2
+      Hash: f4aed8bae50025fac3bfa9f69357d862
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 9c24ebd27e0cb67718af70d9ecc9f41f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Spawner
+  - hash:
+      serializedVersion: 2
+      Hash: 6b1467292842a13c742da2372cd6a15f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuTab
+  - hash:
+      serializedVersion: 2
+      Hash: 88ea90c28aef82b77fbe1894f6b11651
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMConditionalActivation
+  - hash:
+      serializedVersion: 2
+      Hash: 319961f0e97b12b5eb957ee70d6e1090
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineOrthographicSizeShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 87aedf848fcb1aea0381f5aef3c98b71
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackSpriteRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_InfoLabel
+  - hash:
+      serializedVersion: 2
+      Hash: ffd3ed4fcd23b3e7745287c99a637247
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMControlsTestInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: dea41f38ea8bffb456ffac56ac99de98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_UISliderTextReader
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7f778c1999d3a70951631a29d63333cb
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTimedActivation
+  - hash:
+      serializedVersion: 2
+      Hash: c6d69c95840d5676030107bab620fa79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Useless
+  - hash:
+      serializedVersion: 2
+      Hash: af8e1528412ddd9fbee43e798e711cba
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 75e7efb7e24881ec02796863903b6d15
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_DashboardColors
+  - hash:
+      serializedVersion: 2
+      Hash: 5e84370a36252d6aa37d6a7bd37710f7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: b428f7c75340cbc1ccd3f8dc35969635
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: BallDemoBall
+  - hash:
+      serializedVersion: 2
+      Hash: 19ffc51f6442ce00ffced1e1b20cc1a0
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRandomBoundsInstantiator
+  - hash:
+      serializedVersion: 2
+      Hash: c5eae3b439a4aa0ead66fdcff23d3a2e
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMPSBToUIConverter
+  - hash:
+      serializedVersion: 2
+      Hash: 769a32e08fce0878f49bc40f77f4e720
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackAudioSourceStereoPan
+  - hash:
+      serializedVersion: 2
+      Hash: 499c537c552816ef2dde89072092751f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5cae513aa54e26135f8e8444cc50fa84
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Records
+  - hash:
+      serializedVersion: 2
+      Hash: 59239afb504677825900f4828ab95e79
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDelayParticles
+  - hash:
+      serializedVersion: 2
+      Hash: 118f18fb7e890ec5cebdcc48231f5ffd
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: LoadingSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 842a53f26c159169d1fd88e4a2afc123
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackLooperStart
+  - hash:
+      serializedVersion: 2
+      Hash: 6b8193b93b20e9e08e1fb3055fe05fdd
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacksShaker
+  - hash:
+      serializedVersion: 2
+      Hash: cf624757c523fa496cc311354862004d
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuItemText
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 2cb4b501661620704b1c975592cea35a
+    assemblyName: MoreMountains.Feedbacks.MMTools.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackDebugLog
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 166e3f680ecf9df8a1665afb8a1ebcc8
+    assemblyName: MoreMountains.NiceVibrations.Demos.dll
+    namespaceName: MoreMountains.NiceVibrations
+    className: CarDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 7c5c9ec9704cdc8074f62921898f6f6b
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuButtonEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 232706e1ef1680f1aaeb4ed7c202c0e4
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackCinemachineImpulse
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 1777718db76c730832e566f00f9823e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_MobileButtons
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMRigidbodyInterface
+  - hash:
+      serializedVersion: 2
+      Hash: 47e064aa47843796e30b365eb8574c0d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_SuspensionArm
+  - hash:
+      serializedVersion: 2
+      Hash: b3850e7251ebef82ea8eca739c9b2255
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuData
+  - hash:
+      serializedVersion: 2
+      Hash: 7b3216bb34fdd4bb3a48518a010216c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RampAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c61244846b18d76fd5bf842e63d93e0e
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMVignetteShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 53dcaa6bfc85034ab40ccaa54a27773a
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbacks
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: a10992f7d1193e395b3020d79655ea1a
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMDebugMenuSpriteReplace
+  - hash:
+      serializedVersion: 2
+      Hash: 4d0c6690cd267526354e73eef86e606c
+    assemblyName: MoreMountains.Feedbacks.PostProcessing.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMFeedbackLensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 9aa45d63179053ef018295b6fced0a5e
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioSourceVolumeShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 77d67d1dba6901d65418ae52dc02ecd9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_Vehicles
+  - hash:
+      serializedVersion: 2
+      Hash: 6fbef7492bae54fe6e1e10c99c4e4599
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackCameraClippingPlanes
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 842a53f26c159169d1fd88e4a2afc123
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackPause
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 640858ae63d0225047563c3800464e51
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAudioAnalyzer
+  - hash:
+      serializedVersion: 2
+      Hash: 62824bb9557c7e987502f2fbd2a26819
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 6346786c2af049db4ad0af7d9015f696
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_DashboardInputs
+  - hash:
+      serializedVersion: 2
+      Hash: a773a2e9dc277af9ae7d5c7f43c8a21f
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMAutoOrderInLayer
+  - hash:
+      serializedVersion: 2
+      Hash: c60c5cba0d5ed4f4a018240d6339217f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 509e05d8461dde87f8dda0f9a2761855
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackSetActive
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd689b29ca4e350893b80d82ac126b1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: eff8203ff77ebab5d73ac8baa40b45b9
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCameraZoom
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 996ebbfde6915952e4c78ef81933c680
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMTouchControls
+  - hash:
+      serializedVersion: 2
+      Hash: b5c3dbcb94925c8b595ad16a62b44788
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 2792936179724025482dc04d68a47ca7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: 4467d008ccd439a6f33b16e92f06c29f
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMAudioFilterReverbShaker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCC_LevelLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 296c5973aa25a885e91e45d5c2ebddd7
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMLoadScene
+  - hash:
+      serializedVersion: 2
+      Hash: 22a4287c962033b6d91bdb551041e421
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMConeOfVision
+  - hash:
+      serializedVersion: 2
+      Hash: 50144b95ce1d4d0ca407b2a0773e8432
+    assemblyName: MoreMountains.Tools.dll
+    namespaceName: MoreMountains.Tools
+    className: MMFPSUnlock
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 354402fc529e54ba2ec9b24e9d8f757e
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackCameraFieldOfView
+  - hash:
+      serializedVersion: 2
+      Hash: 5e2bb0f7e38a7839e5c7d0c16ab453ad
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMFeedbackPosition
+  - hash:
+      serializedVersion: 2
+      Hash: fac2148692681447dc77e7ead1df12f1
+    assemblyName: MoreMountains.Feedbacks.dll
+    namespaceName: MoreMountains.Feedbacks
+    className: MMTimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 550b6c004f6c7510f5ce371b6a72e4b5
+    assemblyName: MoreMountains.Feedbacks.Cinemachine.dll
+    namespaceName: MoreMountains.FeedbacksForThirdParty
+    className: MMCinemachineFieldOfViewShaker
+  platform: 5
+  scenePathNames:
+  - Assets/Scenes/Start.unity
+  - Assets/Scenes/Main.unity
+  playerPath: D:/Programming/UnityProjects/MyProjects/APK/CarWar_Build/T3_SB_CarWar.exe
