@@ -47,9 +47,8 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
-
 *.asmref.meta
-
+*.cs.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -57,9 +56,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.rar
 
 # Crashlytics generated file
 crashlytics-build.properties
 
 NiceVibrations
-*.rar
