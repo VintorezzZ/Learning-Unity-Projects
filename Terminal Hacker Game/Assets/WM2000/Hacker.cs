@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class Hacker : MonoBehaviour
 {
-    int level; 
-
+    int level;
+    string password;
     enum State
     {
         MainMenu, 
@@ -20,6 +20,16 @@ public class Hacker : MonoBehaviour
     void Start()
     {
         ShowMainMenu();
+    }
+    void ShowMainMenu()
+    {
+        currenState = State.MainMenu;
+        Terminal.ClearScreen();
+        Terminal.WriteLine("What would you like to hack into?");
+        Terminal.WriteLine("Press 1 for the local library");
+        Terminal.WriteLine("Press 2 for the police station");
+        Terminal.WriteLine("Press 3 for NASA");
+        Terminal.WriteLine("Enter your selection: ");
     }
 
     void OnUserInput(string input)     // Usefull thing!
@@ -34,21 +44,25 @@ public class Hacker : MonoBehaviour
         }
         else if (currenState == State.Password)
         {
-            
+            CheckPassword(input);
         }
      
     }
+
+ 
 
     private void RunMainMenu(string input)
     {
         switch (input)
         {
             case "1": 
-                level = 1; 
+                level = 1;
+                password = "donkey";
                 StartGame(level); 
                 break;
             case "2":
                 level = 2;
+                password = "combo";
                 StartGame(level); break;
             case "3":
                 level = 3;
@@ -62,19 +76,20 @@ public class Hacker : MonoBehaviour
     private void StartGame(int level)
     {
         currenState = State.Password;
-        Terminal.WriteLine("Password:");
+        Terminal.WriteLine("You have chosen level " + level);
+        Terminal.WriteLine("Enter your password:");
     }
 
-    void ShowMainMenu()
+    private void CheckPassword(string input)
     {
-        currenState = State.MainMenu;
-        Terminal.ClearScreen();
-        Terminal.WriteLine("What would you like to hack into?");
-        Terminal.WriteLine("Press 1 for the local library");
-        Terminal.WriteLine("Press 2 for the police station");
-        Terminal.WriteLine("Press 3 for NASA");
-        Terminal.WriteLine("Enter your selection: ");
+        if (input == password) 
+        {
+            Terminal.WriteLine("Well done.");
+        }
+        else
+        {
+            Terminal.WriteLine("Wrong password.");
+        }
     }
-
 
 }
