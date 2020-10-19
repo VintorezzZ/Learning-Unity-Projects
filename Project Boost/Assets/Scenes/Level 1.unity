@@ -1029,18 +1029,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 644051025, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
-      propertyPath: mainEngine
-      value: 
-      objectReference: {fileID: 8300000, guid: 7b3fc1374743da6498aae4fbf591130d, type: 3}
-    - target: {fileID: 644051025, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
-      propertyPath: death
-      value: 
-      objectReference: {fileID: 8300000, guid: 088ed773e7f075c42b3abd386158b305, type: 3}
-    - target: {fileID: 644051025, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
-      propertyPath: success
-      value: 
-      objectReference: {fileID: 8300000, guid: ecd27fe2a98195044a1b142b02d8e3c0, type: 3}
     - target: {fileID: 781212614808476064, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
       propertyPath: m_Name
       value: Rocket Ship
@@ -1051,7 +1039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 781212614808476071, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.7
+      value: 20.48
       objectReference: {fileID: 0}
     - target: {fileID: 781212614808476071, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1088,10 +1076,6 @@ PrefabInstance:
     - target: {fileID: 781212614808476071, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7824417632359443873, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}
-      propertyPath: m_audioClip
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b1dac4c76277ca4ea9db50e0919e333, type: 3}

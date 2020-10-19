@@ -8,6 +8,9 @@ public class Rocket : MonoBehaviour
     [SerializeField] AudioClip mainEngine;
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip death;
+    [SerializeField] ParticleSystem mainEngineParticles;
+    [SerializeField] ParticleSystem successParticles;
+    [SerializeField] ParticleSystem deathParticles;
 
     Rigidbody rb;
     AudioSource audioSource;
@@ -63,6 +66,7 @@ public class Rocket : MonoBehaviour
         state = State.Dying;
         audioSource.Stop();
         audioSource.PlayOneShot(death);
+        deathParticles.Play();
         Invoke("LoadFirstLevel", 1f);
     }
 
@@ -71,6 +75,7 @@ public class Rocket : MonoBehaviour
         state = State.Transcending;
         audioSource.Stop();
         audioSource.PlayOneShot(success);
+        successParticles.Play();
         Invoke("LoadNextSceen", 1f);
     }
 
@@ -85,6 +90,28 @@ public class Rocket : MonoBehaviour
         SceneManager.LoadScene(currentScene + 1);
     }
 
+    private void RespondToThrustInput()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            ApplyThrust();
+        }
+        else
+        {
+            audioSource.Stop();
+            mainEngineParticles.Stop();
+        }
+    }
+
+    private void ApplyThrust()
+    {
+        rb.AddRelativeForce(Vector3.up * rcsThrust * Time.deltaTime);
+        if (!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(mainEngine);
+        }
+        mainEngineParticles.Play();
+    }
     private void RespondToRotateInput()
     {
         rb.freezeRotation = true;
@@ -99,26 +126,5 @@ public class Rocket : MonoBehaviour
         }
 
         rb.freezeRotation = false;
-    }
-
-    private void RespondToThrustInput()
-    {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            ApplyThrust();
-        }
-        else
-        {
-            audioSource.Stop();
-        }
-    }
-
-    private void ApplyThrust()
-    {
-        rb.AddRelativeForce(Vector3.up * rcsThrust * Time.deltaTime);
-        if (!audioSource.isPlaying)
-        {
-            audioSource.PlayOneShot(mainEngine);
-        }
     }
 }
