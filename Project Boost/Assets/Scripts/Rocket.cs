@@ -22,6 +22,7 @@ public class Rocket : MonoBehaviour
         Transcending 
     }
     State state = State.Alive;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -36,7 +37,6 @@ public class Rocket : MonoBehaviour
             RespondToThrustInput();
             RespondToRotateInput();
         }
-        
     }
 
     private void OnCollisionEnter(Collision collision)

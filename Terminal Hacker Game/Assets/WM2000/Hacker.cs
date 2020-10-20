@@ -84,10 +84,10 @@ public class Hacker : MonoBehaviour
                 password = level_1_passwords[Random.Range(0, level_1_passwords.Length)];
                 break;
             case 2:
-                password = level_2_passwords[Random.Range(0, level_1_passwords.Length)];
+                password = level_2_passwords[Random.Range(0, level_2_passwords.Length)];
                 break;
             case 3:
-                password = level_3_passwords[Random.Range(0, level_1_passwords.Length)];
+                password = level_3_passwords[Random.Range(0, level_3_passwords.Length)];
                 break;
             default:
                 Terminal.WriteLine("Invalid level number");
@@ -132,7 +132,7 @@ public class Hacker : MonoBehaviour
                 );
                 break;
             case 2:
-                Terminal.WriteLine("You got a prison key");
+                Terminal.WriteLine("You got a prison key!\n");
                 break;
             case 3:
                 Terminal.WriteLine(@"
