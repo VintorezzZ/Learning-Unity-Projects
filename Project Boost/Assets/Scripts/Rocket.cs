@@ -11,9 +11,11 @@ public class Rocket : MonoBehaviour
     [SerializeField] ParticleSystem mainEngineParticles;
     [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem deathParticles;
+    [SerializeField] private float levelLoadDelay = 2f;
 
-    Rigidbody rb;
-    AudioSource audioSource;
+    
+    Rigidbody _rb;
+    AudioSource _audioSource;
 
     enum State 
     { 
@@ -25,8 +27,8 @@ public class Rocket : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        audioSource = GetComponent<AudioSource>();
+        _rb = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -64,19 +66,19 @@ public class Rocket : MonoBehaviour
     private void StartDeathSequence()
     {
         state = State.Dying;
-        audioSource.Stop();
-        audioSource.PlayOneShot(death);
+        _audioSource.Stop();
+        _audioSource.PlayOneShot(death);
         deathParticles.Play();
-        Invoke("LoadFirstLevel", 1f);
+        Invoke(nameof(LoadFirstLevel), levelLoadDelay);
     }
 
     private void StartSuccessSequence()
     {
         state = State.Transcending;
-        audioSource.Stop();
-        audioSource.PlayOneShot(success);
+        _audioSource.Stop();
+        _audioSource.PlayOneShot(success);
         successParticles.Play();
-        Invoke("LoadNextSceen", 1f);
+        Invoke(nameof(LoadNextSceen), levelLoadDelay);
     }
 
     private void LoadFirstLevel()
@@ -98,33 +100,33 @@ public class Rocket : MonoBehaviour
         }
         else
         {
-            audioSource.Stop();
+            _audioSource.Stop();
             mainEngineParticles.Stop();
         }
     }
 
     private void ApplyThrust()
     {
-        rb.AddRelativeForce(Vector3.up * rcsThrust * Time.deltaTime);
-        if (!audioSource.isPlaying)
+        _rb.AddRelativeForce(Vector3.up * (rcsThrust * Time.deltaTime));
+        if (!_audioSource.isPlaying)
         {
-            audioSource.PlayOneShot(mainEngine);
+            _audioSource.PlayOneShot(mainEngine);
         }
         mainEngineParticles.Play();
     }
     private void RespondToRotateInput()
     {
-        rb.freezeRotation = true;
+        _rb.freezeRotation = true;
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.forward * (rotationSpeed * Time.deltaTime));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(-Vector3.forward * rotationSpeed * Time.deltaTime);
+            transform.Rotate(-Vector3.forward * (rotationSpeed * Time.deltaTime));
         }
 
-        rb.freezeRotation = false;
+        _rb.freezeRotation = false;
     }
 }
