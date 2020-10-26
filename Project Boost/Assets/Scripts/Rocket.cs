@@ -12,7 +12,7 @@ public class Rocket : MonoBehaviour
     [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem deathParticles;
     [SerializeField] private float levelLoadDelay = 2f;
-
+    private bool collisionsDisabled = false;
     
     Rigidbody _rb;
     AudioSource _audioSource;
@@ -39,11 +39,28 @@ public class Rocket : MonoBehaviour
             RespondToThrustInput();
             RespondToRotateInput();
         }
+
+        if (Debug.isDebugBuild)
+        {
+            RespondToDebugKeys();
+        }
+    }
+
+    private void RespondToDebugKeys()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LoadNextSceen();
+        }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            collisionsDisabled = !collisionsDisabled;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (state != State.Alive)
+        if (state != State.Alive || collisionsDisabled)
             return;
 
         switch (collision.gameObject.tag)
@@ -83,13 +100,19 @@ public class Rocket : MonoBehaviour
 
     private void LoadFirstLevel()
     {
-        SceneManager.LoadScene(0);
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentScene);
     }
 
     private void LoadNextSceen()
     {
         int currentScene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentScene + 1);
+        int nextSceneToLoad = currentScene + 1;
+        if (nextSceneToLoad == SceneManager.sceneCountInBuildSettings)
+        {
+            nextSceneToLoad = 0;
+        }
+        SceneManager.LoadScene(nextSceneToLoad);
     }
 
     private void RespondToThrustInput()
@@ -116,7 +139,7 @@ public class Rocket : MonoBehaviour
     }
     private void RespondToRotateInput()
     {
-        _rb.freezeRotation = true;
+        _rb.angularVelocity = Vector3.zero;
 
         if (Input.GetKey(KeyCode.A))
         {
@@ -127,6 +150,5 @@ public class Rocket : MonoBehaviour
             transform.Rotate(-Vector3.forward * (rotationSpeed * Time.deltaTime));
         }
 
-        _rb.freezeRotation = false;
     }
 }
