@@ -18,7 +18,7 @@ public class ECSManager : MonoBehaviour
         for (int i = 0; i < numSheep; i++)
         {
             var instance = entityManager.Instantiate(prefab);
-            var position = transform.TransformPoint(new float3(Random.Range(-50, 50), 0, Random.Range(-50, 50)));
+            var position = transform.TransformPoint(new float3(Random.Range(-50, 50), Random.Range(-50, 50), Random.Range(-50, 50)));
             entityManager.SetComponentData(instance, new Translation {Value = position});
             entityManager.SetComponentData(instance, new Rotation {Value = new quaternion(0, 0, 0, 0)});
         }
