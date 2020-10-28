@@ -6,6 +6,7 @@
     <e p="D:\Programming\UnityProjects\Learning-Unity-Projects\DOTS(ECS) course\Performing Translations" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ECSManager_asteroids.cs" t="Include" />
         <e p="ECSManager_planet.cs" t="Include" />
         <e p="ECSManager_tank.cs" t="Include" />
         <e p="MoveSystem_planet.cs" t="Include" />

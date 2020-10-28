@@ -29,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ECSManager_asteroids.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ECSManager_planet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -40,6 +41,7 @@
         <option value="$PROJECT_DIR$/Assets/ECSManager_planet.cs" />
         <option value="$PROJECT_DIR$/Assets/MoveSystem_planet.cs" />
         <option value="$PROJECT_DIR$/Assets/MoveSystem_tank.cs" />
+        <option value="$PROJECT_DIR$/Assets/ECSManager_asteroids.cs" />
       </list>
     </option>
   </component>
@@ -83,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603879508678</updated>
-      <workItem from="1603879513472" duration="4773000" />
+      <workItem from="1603879513472" duration="6014000" />
     </task>
     <servers />
   </component>
