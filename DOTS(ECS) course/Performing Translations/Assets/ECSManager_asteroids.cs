@@ -10,7 +10,7 @@ public class ECSManager_asteroids : MonoBehaviour
 {
     EntityManager manager;
     public GameObject asteroidPrefab;
-    const int numAsteroids = 5000;
+    const int numAsteroids = 200000;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +22,9 @@ public class ECSManager_asteroids : MonoBehaviour
         for (int i = 0; i < numAsteroids; i++)
         {
             var instance = manager.Instantiate(prefab);
-            float x = Mathf.Sin(i) * Random.Range(25, 50);
+            float x = Mathf.Sin(i) * Random.Range(100, 500);
             float y = Random.Range(-5, 5);
-            float z = Mathf.Cos(i) * Random.Range(25, 50);
+            float z = Mathf.Cos(i) * Random.Range(100, 500);
             var position = transform.TransformPoint(new float3(x, y, z));
             manager.SetComponentData(instance, new Translation { Value = position });
 
