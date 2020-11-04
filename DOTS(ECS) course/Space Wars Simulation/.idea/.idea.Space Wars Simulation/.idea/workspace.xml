@@ -25,9 +25,9 @@
         <option value="$PROJECT_DIR$/Assets/ShipData.cs" />
         <option value="$PROJECT_DIR$/Assets/GameDataManager.cs" />
         <option value="$PROJECT_DIR$/Assets/ECSManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/ShootSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/LifeTimeData.cs" />
         <option value="$PROJECT_DIR$/Assets/TimeDestroySystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ShootSystem.cs" />
       </list>
     </option>
   </component>
@@ -72,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604400275031</updated>
       <workItem from="1604400289484" duration="11927000" />
+      <workItem from="1604482746893" duration="857000" />
     </task>
     <servers />
   </component>

@@ -8,4 +8,5 @@ public struct ShipData : IComponentData
     public int currentWP;
     public bool approach;
     public Entity bulletPrefab;
+    public Entity explosionPrefab;
 }
