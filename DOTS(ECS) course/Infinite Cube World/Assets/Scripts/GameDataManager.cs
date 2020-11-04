@@ -4,6 +4,8 @@ using UnityEngine;
 using Unity.Entities;
 public static class GameDataManager
 {
+    public static Vector3 playerPosition;
+
     public static float scale1;
     public static float strength1;
 

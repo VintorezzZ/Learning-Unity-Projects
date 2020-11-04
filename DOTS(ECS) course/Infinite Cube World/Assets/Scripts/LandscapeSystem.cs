@@ -25,11 +25,14 @@ public class LandscapeSystem : JobComponentSystem
 
         float strength3 = GameDataManager.strength3;
         float scale3 = GameDataManager.scale3;
+
+        float3 offset = GameDataManager.playerPosition;
+
         var jobHandle = Entities
             .WithName("LandscapeSystem")
             .ForEach((ref Translation translation, ref BlockData blockData) =>
             {
-                var vertex = translation.Value;
+                var vertex = blockData.initialPosition + offset;
                 var perlin1 = Mathf.PerlinNoise(vertex.x * scale1, vertex.z * scale1) * strength1;
                 var perlin2 = Mathf.PerlinNoise(vertex.x * scale2, vertex.z * scale2) * strength2;
                 var perlin3 = Mathf.PerlinNoise(vertex.x * scale3, vertex.z * scale3) * strength3;
