@@ -8,6 +8,7 @@ public class ECSManager : MonoBehaviour
     EntityManager manager;
     public GameObject playerPrefab;
     public GameObject bulletPrefab;
+    public GameObject characterTracker;
     BlobAssetStore store;
 
     // Start is called before the first frame update
@@ -21,7 +22,9 @@ public class ECSManager : MonoBehaviour
 
         var playerCharacter = manager.Instantiate(character);
         manager.SetComponentData(playerCharacter, new Translation { Value = new float3(0, 2.2f, 0) });
-        manager.SetComponentData(playerCharacter, new CharacterData { speed = 5, bulletPrefab = bullet });
+        manager.SetComponentData(playerCharacter, new CharacterData { speed = 50, bulletPrefab = bullet });
+
+        characterTracker.GetComponent<EntityTracker>().SetReceivedEntity(playerCharacter);
 
     }
 

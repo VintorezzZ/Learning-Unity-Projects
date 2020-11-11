@@ -175,6 +175,7 @@ MonoBehaviour:
     m_BevelRadius: 0.029870812
     m_MinimumAngle: 2.5000002
   m_CustomMesh: {fileID: 0}
+  m_ForceUnique: 0
   m_Material:
     m_SupportsTemplate: 1
     m_Template: {fileID: 0}
@@ -217,6 +218,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+  collisionEffect:
+    x: 0
+    y: 1000
+    z: 0
 --- !u!114 &1957535213923923436
 MonoBehaviour:
   m_ObjectHideFlags: 0

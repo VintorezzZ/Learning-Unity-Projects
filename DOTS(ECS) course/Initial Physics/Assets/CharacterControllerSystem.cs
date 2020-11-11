@@ -16,20 +16,25 @@ public class CharacterControllerSystem : JobComponentSystem
 
         var jobHandle = Entities
             .WithName("CharacterControllerSystem")
-            .ForEach((ref PhysicsVelocity physics, ref Rotation rotation, ref CharacterData player) =>
+            .ForEach((ref PhysicsVelocity physics, ref PhysicsMass mass, ref Translation position, ref Rotation rotation, ref CharacterData player) =>
             {
                 if (inputZ == 0)
                     physics.Linear = float3.zero;
                 else
                     physics.Linear += inputZ * deltaTime * player.speed * math.forward(rotation.Value);
 
+                mass.InverseInertia[0] = 0;
+                mass.InverseInertia[2] = 0;
+
                 //physics.Angular += new float3(0, inputY * 0.1f, 0);
                 rotation.Value = math.mul(math.normalize(rotation.Value), 
                             quaternion.AxisAngle(math.up(), deltaTime * inputY));
+                    
             })
             .Schedule(inputDeps);
 
         jobHandle.Complete();
+
 
         Entities.WithoutBurst().WithStructuralChanges()
             .WithName("ShootControllerSystem")
@@ -43,6 +48,13 @@ public class CharacterControllerSystem : JobComponentSystem
                     EntityManager.SetComponentData(instance, new Translation { 
                             Value = position.Value + math.mul(rotation.Value, offset) });
                     EntityManager.SetComponentData(instance, new Rotation { Value = rotation.Value });
+
+                    float rspeed = UnityEngine.Random.Range(20, 150);
+                    float3 reffect = new float3(UnityEngine.Random.Range(-500, 500),
+                        UnityEngine.Random.Range(-500, 500),
+                        UnityEngine.Random.Range(-500, 500));
+
+                    EntityManager.SetComponentData(instance, new BulletData { speed = rspeed, collisionEffect = reffect });
                 }
             })
             .Run();

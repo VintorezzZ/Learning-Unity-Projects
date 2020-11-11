@@ -12,7 +12,7 @@ public class MoveBulletSystem : JobComponentSystem
         float deltaTime = Time.DeltaTime;
         var jobHandle = Entities
             .WithName("MoveBulletSystem")
-            .ForEach((ref PhysicsVelocity physics,ref Translation position, ref Rotation rotation, ref BulletData bulletData) =>
+            .ForEach((ref PhysicsVelocity physics, ref Translation position, ref Rotation rotation, ref BulletData bulletData) =>
             {
                 physics.Angular = float3.zero;
                 physics.Linear += deltaTime * bulletData.speed * math.forward(rotation.Value);
