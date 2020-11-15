@@ -10,9 +10,7 @@ public class RadarObject
 }
 
 public class Radar : MonoBehaviour
-{
-    public Image eggIcon;
-
+{  
     public Transform playerPos;
 
     float mapScale = 2.0f;
@@ -66,10 +64,14 @@ public class Radar : MonoBehaviour
         DrawRadarDots();
     }
 
-    public void ItemDropped()
+    public void ItemDropped(GameObject go)
     {
         print("Item dropped.");
-        RegisterRadarObject();
+        RegisterRadarObject(go, go.GetComponent<ItemToSpawn>().icon);
+    }
+    public void ItemPickedUp(GameObject go)
+    {
+        RemoveRadarObject(go);
     }
 
 }
