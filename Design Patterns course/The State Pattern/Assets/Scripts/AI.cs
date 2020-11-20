@@ -22,5 +22,6 @@ public class AI : MonoBehaviour
     void Update()
     {
         currentState = currentState.Process();
+        
     }
 }
