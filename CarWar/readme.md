@@ -1,1 +1,0 @@
-![alt text](screenshots/CarWar_gameplay.png "Описание будет тут")
